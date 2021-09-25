@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head> <script type="text/javascript">if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}}</script>
+		<!-- Required meta tags always come first -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link rel="apple-touch-icon" sizes="57x57" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://humanists.international/wp-content/themes/humanists/dist/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://humanists.international/wp-content/themes/humanists/dist/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://humanists.international/wp-content/themes/humanists/dist/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://humanists.international/wp-content/themes/humanists/dist/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://humanists.international/wp-content/themes/humanists/dist/icons/favicon-16x16.png">
+<link rel="manifest" href="https://humanists.international/wp-content/themes/humanists/dist/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://humanists.international/wp-content/themes/humanists/dist/icons/ms-icon-144x144.png">
+		<title>Humanists International</title>
+
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="en" href="https://humanists.international" />
+<link rel="alternate" hreflang="ar" href="https://humanists.international/?lang=ar" />
+<link rel="alternate" hreflang="fr" href="https://humanists.international/?lang=fr" />
+<link rel="alternate" hreflang="zh-hans" href="https://humanists.international/?lang=zh-hans" />
+<link rel="alternate" hreflang="ru" href="https://humanists.international/?lang=ru" />
+<link rel="alternate" hreflang="es" href="https://humanists.international/?lang=es" />
+<link rel="alternate" hreflang="nl" href="https://humanists.international/?lang=nl" />
+<link rel="alternate" hreflang="fa" href="https://humanists.international/?lang=fa" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="We are the world union of humanist organisations." />
+	<link rel="canonical" href="https://humanists.international/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Humanists International" />
+	<meta property="og:description" content="The global representative body of the humanist movement" />
+	<meta property="og:url" content="https://humanists.international/" />
+	<meta property="og:site_name" content="Humanists International" />
+	<meta property="article:publisher" content="https://www.facebook.com/humanistsinternational/" />
+	<meta property="article:modified_time" content="2021-09-13T15:54:43+00:00" />
+	<meta property="og:image" content="https://humanists.international/wp-content/uploads/2019/02/All-BANNERS-STANDARD-1.jpg" />
+	<meta property="og:image:width" content="5000" />
+	<meta property="og:image:height" content="2617" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Humanists International" />
+	<meta name="twitter:description" content="The global representative body of the humanist movement" />
+	<meta name="twitter:image" content="https://humanists.international/wp-content/uploads/2019/02/All-BANNERS-STANDARD-1.jpg" />
+	<meta name="twitter:site" content="@humanistsint" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://humanists.international/#organization","name":"Humanists International","url":"https://humanists.international/","sameAs":["https://www.facebook.com/humanistsinternational/","https://en.wikipedia.org/wiki/Humanists_International","https://twitter.com/humanistsint"],"logo":{"@type":"ImageObject","@id":"https://humanists.international/#logo","inLanguage":"en-US","url":"https://humanists.international/wp-content/uploads/2019/02/HI_Logo_RGB-with-200px-padding.png","contentUrl":"https://humanists.international/wp-content/uploads/2019/02/HI_Logo_RGB-with-200px-padding.png","width":1451,"height":1226,"caption":"Humanists International"},"image":{"@id":"https://humanists.international/#logo"}},{"@type":"WebSite","@id":"https://humanists.international/#website","url":"https://humanists.international/","name":"Humanists International","description":"Supporting humanist groups to develop, grow and flourish in countries across the world","publisher":{"@id":"https://humanists.international/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://humanists.international/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://humanists.international/#primaryimage","inLanguage":"en-US","url":"https://humanists.international/wp-content/uploads/2019/02/All-BANNERS-STANDARD-1.jpg","contentUrl":"https://humanists.international/wp-content/uploads/2019/02/All-BANNERS-STANDARD-1.jpg","width":5000,"height":2617},{"@type":"WebPage","@id":"https://humanists.international/#webpage","url":"https://humanists.international/","name":"Humanists International","isPartOf":{"@id":"https://humanists.international/#website"},"about":{"@id":"https://humanists.international/#organization"},"primaryImageOfPage":{"@id":"https://humanists.international/#primaryimage"},"datePublished":"2019-01-04T16:08:30+00:00","dateModified":"2021-09-13T15:54:43+00:00","description":"We are the world union of humanist organisations.","breadcrumb":{"@id":"https://humanists.international/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://humanists.international/"]}]},{"@type":"BreadcrumbList","@id":"https://humanists.international/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//js.stripe.com' />
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v6.8.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-169925692-1"  type="text/javascript" data-cfasync="false" async></script>
+			<script type="text/javascript" data-cfasync="false">
+				var em_version = '6.8.0';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-169925692-1';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( em_track_user ) {
+					function __gtagTracker() {dataLayer.push( arguments );}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dNDMyYj' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-169925692-1', {
+						forceSSL:true,					} );
+										window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( 'pageview' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[2] ) {
+												hitObject = {
+													'eventAction': 'page_view',
+													'page_path' : arguments[2],
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof arguments[1].hitType ) {
+											hitObject = arguments[1];
+											if ( 'pageview' === hitObject.hitType ) {
+												hitObject.eventAction = 'page_view';
+											}
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var arg, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+										'page' : 'page_path',
+										'location' : 'page_location',
+										'title' : 'page_title',
+									};
+									for ( arg in args ) {
+										if ( args.hasOwnProperty(arg) && gaMap.hasOwnProperty(arg) ) {
+											hit[gaMap[arg]] = args[arg];
+										} else {
+											hit[arg] = args[arg];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+		<link rel='stylesheet' id='wp-block-library-css'  href='https://humanists.international/wp-includes/css/dist/block-library/style.min.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-menu-item-0-css'  href='//humanists.international/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://humanists.international/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='default_style-css'  href='https://humanists.international/wp-content/themes/humanists/style.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wiaw_style-css'  href='https://humanists.international/wp-content/themes/humanists/dist/css/humanists.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='googleFonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700&#038;ver=5.8' type='text/css' media='all' />
+<script type='text/javascript' id='exactmetrics-frontend-script-js-extra'>
+/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/humanists.international","hash_tracking":"false","ua":"UA-169925692-1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://humanists.international/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=6.8.0' id='exactmetrics-frontend-script-js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js?ver=2.0.s' id='jquery-js'></script>
+<script type='text/javascript' src='https://use.typekit.net/diu1kmx.js?ver=1.0' id='humanists-typekit-js'></script>
+<script type='text/javascript' id='humanists-typekit-js-after'>
+try{Typekit.load({ async: true });}catch(e){}
+</script>
+<link rel="https://api.w.org/" href="https://humanists.international/wp-json/" /><link rel="alternate" type="application/json" href="https://humanists.international/wp-json/wp/v2/pages/25554" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://humanists.international/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://humanists.international/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<link rel='shortlink' href='https://humanists.international/' />
+<link rel="alternate" type="application/json+oembed" href="https://humanists.international/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhumanists.international%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://humanists.international/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhumanists.international%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.4.10 stt:5,60,38,1,4,17,46,2;" />
+<script>readMoreArgs = []</script><script type="text/javascript">
+				EXPM_VERSION=2.8;EXPM_AJAX_URL='https://humanists.international/wp-admin/admin-ajax.php';
+			function yrmAddEvent(element, eventName, fn) {
+				if (element.addEventListener)
+					element.addEventListener(eventName, fn, false);
+				else if (element.attachEvent)
+					element.attachEvent('on' + eventName, fn);
+			}
+			</script>
+<!-- Facebook Pixel Code -->
+<script type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+<!-- End Facebook Pixel Code -->
+<script type='text/javascript'>
+  fbq('init', '657827501757532', {}, {
+    "agent": "wordpress-5.8-3.0.5"
+});
+</script><script type='text/javascript'>
+  fbq('track', 'PageView', []);
+</script>
+<!-- Facebook Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=657827501757532&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+		<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5c3a0be7e18068001195f86c&product=custom-share-buttons"></script>
+<!-- Start of Bibblio RCM includes -->
+<link rel="stylesheet" type="text/css" href="https://cdn.bibblio.org/rcm/4.7/bib-related-content.min.css">
+<script src="https://cdn.bibblio.org/rcm/4.7/bib-related-content.min.js"></script>
+<!-- End of Bibblio RCM includes -->
+	</head>
+
+	<body class="home page-template-default page page-id-25554">
+
+		<!-- en -->
+
+		<div class="fixed-top">
+			<div class="nav-container">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-pink">
+
+					<a class="navbar-brand" href="https://humanists.international"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.22 119.08">
+	<title>Humanists Logo</title>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="Our_People" data-name="Our People">
+			<g id="Group_1-2" data-name="Group 1-2">
+				<path id="Path_1-2" data-name="Path 1-2" class="svg-logo svg-logo--letter" d="M101.79,83.17a2.38,2.38,0,0,0,1.72-.66,2.3,2.3,0,0,0,.72-1.74,2.34,2.34,0,0,0-.72-1.76,2.54,2.54,0,0,0-3.46,0,2.36,2.36,0,0,0-.7,1.76,2.29,2.29,0,0,0,.7,1.74A2.43,2.43,0,0,0,101.79,83.17Z"/>
+				<path id="Path_2-2" data-name="Path 2-2" class="svg-logo svg-logo--letter" d="M16.56,79.86a2.53,2.53,0,0,0-.95-.38,5,5,0,0,0-.95-.11l-.74,0-.93.12v9H4.57V82a2.62,2.62,0,0,0-.28-1.34,2.24,2.24,0,0,0-.72-.78,2.73,2.73,0,0,0-.95-.39,5.87,5.87,0,0,0-1-.1l-.68,0L0,79.54v22.34H4.57V92.2H13v9.68h4.57V82a2.62,2.62,0,0,0-.28-1.34A2.24,2.24,0,0,0,16.56,79.86Z"/>
+				<path id="Path_3-2" data-name="Path 3-2" class="svg-logo svg-logo--letter" d="M35.16,101.88V88.76a3.16,3.16,0,0,0-.26-1.39,2.26,2.26,0,0,0-.7-.86,2.79,2.79,0,0,0-1-.44A5.48,5.48,0,0,0,32.15,86c-.33,0-.67,0-1,0a2.35,2.35,0,0,0-.53.09V96.74A1.48,1.48,0,0,1,29.73,98a4.14,4.14,0,0,1-2.12.52,3,3,0,0,1-1.35-.25,1.53,1.53,0,0,1-.7-.7,2.86,2.86,0,0,1-.27-1.07c0-.41-.05-.87-.05-1.39V88.59A2.84,2.84,0,0,0,25,87.24a2.11,2.11,0,0,0-.7-.81,2.56,2.56,0,0,0-1-.38,5.46,5.46,0,0,0-1.07-.1c-.33,0-.67,0-1,0a3.08,3.08,0,0,0-.53.08v9.25c0,.58,0,1.17.05,1.77A10.3,10.3,0,0,0,21,98.77a4.3,4.3,0,0,0,1.47,2.48,5.47,5.47,0,0,0,3.51.93,6.57,6.57,0,0,0,3.17-.65,5.35,5.35,0,0,0,1.75-1.42,3.13,3.13,0,0,0,.21,1.32q.22.45,1,.45Z"/>
+				<path id="Path_4-2" data-name="Path 4-2" class="svg-logo svg-logo--letter" d="M62,101.88V92.47c0-.58,0-1.17-.05-1.78A13.39,13.39,0,0,0,61.79,89a3.88,3.88,0,0,0-1.32-2.41,5.12,5.12,0,0,0-3.49-1,6.42,6.42,0,0,0-3.13.68,6.51,6.51,0,0,0-1.94,1.56,4.18,4.18,0,0,0-1.35-1.57,4.73,4.73,0,0,0-2.79-.67,6.53,6.53,0,0,0-3.17.65,5.21,5.21,0,0,0-1.74,1.42,1.83,1.83,0,0,0-1-1.35A4.29,4.29,0,0,0,40,86l-.64,0-.46,0-.4.07v15.79h4.57V91.06a1.51,1.51,0,0,1,.76-1.28,3.26,3.26,0,0,1,1.92-.52,2.9,2.9,0,0,1,1.33.25,1.63,1.63,0,0,1,.7.7,2.57,2.57,0,0,1,.27,1.08c0,.43,0,.88,0,1.37v9.22h4.55V92.63c0-.66,0-1.32-.1-2a2.69,2.69,0,0,1,1.08-.87,3.65,3.65,0,0,1,1.65-.4,2.69,2.69,0,0,1,1.25.24,1.48,1.48,0,0,1,.67.66,2.52,2.52,0,0,1,.25,1c0,.4,0,.85,0,1.34v9.21Z"/>
+				<path id="Path_5-2" data-name="Path 5-2" class="svg-logo svg-logo--letter" d="M74.13,97.54a1,1,0,0,1-.25.59,2.52,2.52,0,0,1-.68.58,4.1,4.1,0,0,1-1,.43,4.4,4.4,0,0,1-1.2.17,2.2,2.2,0,0,1-1.8-.65,2.47,2.47,0,0,1-.54-1.59,2.25,2.25,0,0,1,.4-1.37,3,3,0,0,1,1-.85,5.33,5.33,0,0,1,1.45-.46,15.39,15.39,0,0,1,1.66-.22,3.55,3.55,0,0,1,.46,0h.47Zm5,4.31A7.52,7.52,0,0,1,78.4,98V91.74a9.36,9.36,0,0,0-.33-2.69A4.25,4.25,0,0,0,77,87.13a4.82,4.82,0,0,0-2-1.14,11.3,11.3,0,0,0-3.06-.37,13.59,13.59,0,0,0-2.47.22,10.58,10.58,0,0,0-2.07.57,4.53,4.53,0,0,0-1.42.8,1.25,1.25,0,0,0-.52.88,3,3,0,0,0,.28,1,5,5,0,0,0,.76,1.25,22.08,22.08,0,0,1,2.19-1.06,6.38,6.38,0,0,1,2.55-.47,3.6,3.6,0,0,1,2.22.53,2.16,2.16,0,0,1,.69,1.81v.6h-.72l-.79,0a23.26,23.26,0,0,0-2.63.3,9.41,9.41,0,0,0-2.68.85,6,6,0,0,0-2,1.69,4.49,4.49,0,0,0-.82,2.77,5.3,5.3,0,0,0,.47,2.32,4.34,4.34,0,0,0,1.2,1.52,4.75,4.75,0,0,0,1.64.81,6.46,6.46,0,0,0,1.8.25,7.2,7.2,0,0,0,2.94-.53,6,6,0,0,0,1.94-1.3,2.11,2.11,0,0,0,.78,1.34,2.93,2.93,0,0,0,1.82.46,4.88,4.88,0,0,0,1.08-.1,5.53,5.53,0,0,0,1.12-.33Z"/>
+				<path id="Path_6-2" data-name="Path 6-2" class="svg-logo svg-logo--letter" d="M91.67,91.3c0,.42,0,.88,0,1.37v9.21h4.54V92.47c0-.58,0-1.17,0-1.78A11.59,11.59,0,0,0,96,89a4.3,4.3,0,0,0-1.47-2.48A5.47,5.47,0,0,0,91,85.62a6.53,6.53,0,0,0-3.17.65,5.21,5.21,0,0,0-1.74,1.42,1.81,1.81,0,0,0-1-1.35A4.24,4.24,0,0,0,83.27,86l-.64,0-.47,0-.4.07v15.79h4.58V91.06a1.49,1.49,0,0,1,.88-1.28,4.14,4.14,0,0,1,2.12-.52,3,3,0,0,1,1.36.25,1.58,1.58,0,0,1,.7.7A3.36,3.36,0,0,1,91.67,91.3Z"/>
+				<path id="Path_7-2" data-name="Path 7-2" class="svg-logo svg-logo--letter" d="M103.47,102.18a1.72,1.72,0,0,0,.6-.1V88.59a3,3,0,0,0-.26-1.35,2.16,2.16,0,0,0-.7-.8,2.88,2.88,0,0,0-1-.39,6.36,6.36,0,0,0-1.07-.1c-.33,0-.67,0-1,0a2.35,2.35,0,0,0-.53.09V99.44a2.48,2.48,0,0,0,.82,2.22,3.59,3.59,0,0,0,2.12.55C102.83,102.22,103.16,102.2,103.47,102.18Z"/>
+				<path id="Path_8-2" data-name="Path 8-2" class="svg-logo svg-logo--letter" d="M114.91,102A6.62,6.62,0,0,0,117,101a5.09,5.09,0,0,0,1.42-1.74,5.26,5.26,0,0,0,.52-2.37,4.43,4.43,0,0,0-.49-2.17,4.28,4.28,0,0,0-1.27-1.44,6.37,6.37,0,0,0-1.77-.88,17,17,0,0,0-2-.52c-1.63-.36-2.44-.91-2.44-1.67a1.18,1.18,0,0,1,.22-.75,1.3,1.3,0,0,1,.53-.43,2,2,0,0,1,.72-.2,4.9,4.9,0,0,1,.77,0,5.12,5.12,0,0,1,1.29.16,9,9,0,0,1,1.27.42,9.54,9.54,0,0,1,1.11.55,8,8,0,0,1,.8.54,13.24,13.24,0,0,0,.68-1.29,2.89,2.89,0,0,0,.32-1.19c0-.64-.56-1.17-1.54-1.57a8.66,8.66,0,0,0-1.82-.53,12.68,12.68,0,0,0-2.38-.2,9.07,9.07,0,0,0-2.44.31,6.57,6.57,0,0,0-2.06,1,5.06,5.06,0,0,0-1.42,1.53,4.09,4.09,0,0,0-.53,2.11,4.43,4.43,0,0,0,.42,2A3.87,3.87,0,0,0,108.08,94a5.67,5.67,0,0,0,1.6.88,12.12,12.12,0,0,0,1.87.54,8.1,8.1,0,0,1,2.25.72,1.43,1.43,0,0,1,.75,1.38,1.48,1.48,0,0,1-.23.87,1.67,1.67,0,0,1-.59.53,2.35,2.35,0,0,1-.81.27c-.3,0-.6.06-.9.07a5.71,5.71,0,0,1-1.37-.17,9.31,9.31,0,0,1-1.26-.42,8.35,8.35,0,0,1-1-.53,6,6,0,0,1-.75-.55c-.29.44-.55.87-.77,1.28a2.47,2.47,0,0,0-.33,1.19,1.18,1.18,0,0,0,.55,1,5.76,5.76,0,0,0,1,.59,7.88,7.88,0,0,0,1.67.51,11.63,11.63,0,0,0,2.5.22A9.18,9.18,0,0,0,114.91,102Z"/>
+				<path id="Path_9-2" data-name="Path 9-2" class="svg-logo svg-logo--letter" d="M130.34,97.71c-.07.07-.18.17-.34.3a2.76,2.76,0,0,1-.58.38,7.51,7.51,0,0,1-.77.34,2.62,2.62,0,0,1-.88.15c-1.27,0-1.91-.78-1.91-2.34V89.39h4.68V86h-4.68V83.65a3,3,0,0,0-.26-1.35,2.25,2.25,0,0,0-.71-.82,2.44,2.44,0,0,0-1-.4,5.46,5.46,0,0,0-1.07-.1,4.7,4.7,0,0,0-.53,0,3.68,3.68,0,0,0-.5,0l-.5.06v15.5c0,.49,0,1,.06,1.46a6.11,6.11,0,0,0,.3,1.41,4.24,4.24,0,0,0,1.61,2.1,5.51,5.51,0,0,0,3.24.81,8.6,8.6,0,0,0,2-.22,5.94,5.94,0,0,0,1.54-.57,3.35,3.35,0,0,0,1-.77,1.33,1.33,0,0,0,.35-.85,2.2,2.2,0,0,0-.27-1A12.53,12.53,0,0,0,130.34,97.71Z"/>
+				<path id="Path_10-2" data-name="Path 10-2" class="svg-logo svg-logo--letter" d="M144.73,94.67a4.28,4.28,0,0,0-1.27-1.44,6.37,6.37,0,0,0-1.77-.88,17,17,0,0,0-2-.52c-1.63-.36-2.44-.91-2.44-1.67a1.18,1.18,0,0,1,.22-.75A1.3,1.3,0,0,1,138,89a2,2,0,0,1,.72-.2,4.9,4.9,0,0,1,.77,0,5.12,5.12,0,0,1,1.29.16,9,9,0,0,1,1.27.42,9.54,9.54,0,0,1,1.11.55,8,8,0,0,1,.8.54,13.24,13.24,0,0,0,.68-1.29,2.89,2.89,0,0,0,.32-1.19c0-.64-.56-1.17-1.54-1.57a8.66,8.66,0,0,0-1.82-.53,12.61,12.61,0,0,0-2.38-.2,9.07,9.07,0,0,0-2.44.31,6.57,6.57,0,0,0-2.06,1,5.19,5.19,0,0,0-1.42,1.53,4.09,4.09,0,0,0-.53,2.11,4.43,4.43,0,0,0,.42,2A3.87,3.87,0,0,0,134.33,94a5.67,5.67,0,0,0,1.6.88,12.12,12.12,0,0,0,1.87.54,8.1,8.1,0,0,1,2.25.72,1.43,1.43,0,0,1,.75,1.38,1.41,1.41,0,0,1-.23.87,1.73,1.73,0,0,1-.58.53,2.4,2.4,0,0,1-.82.27c-.3,0-.6.06-.9.07A5.78,5.78,0,0,1,136.9,99a8.74,8.74,0,0,1-1.25-.42,7.82,7.82,0,0,1-1-.53,5.78,5.78,0,0,1-.75-.55c-.29.44-.54.87-.77,1.28a2.47,2.47,0,0,0-.33,1.19,1.23,1.23,0,0,0,.55,1,5.76,5.76,0,0,0,1,.59,8.06,8.06,0,0,0,1.67.51,11.63,11.63,0,0,0,2.5.22,8.86,8.86,0,0,0,2.66-.37,6.42,6.42,0,0,0,2.12-1.07,5,5,0,0,0,1.42-1.73,5.25,5.25,0,0,0,.51-2.37A4.31,4.31,0,0,0,144.73,94.67Z"/>
+				<path id="Path_11-2" data-name="Path 11-2" class="svg-logo svg-logo--letter" d="M17.56,119H19v-7.59H17.56Z"/>
+				<path id="Path_12-2" data-name="Path 12-2" class="svg-logo svg-logo--letter" d="M27.86,116.52l-4.18-5.14H22.52V119h1.4v-5.14L28.1,119h1.17v-7.59H27.86Z"/>
+				<path id="Path_13-2" data-name="Path 13-2" class="svg-logo svg-logo--letter" d="M31.85,112.57h2.51V119h1.41v-6.4h2.52v-1.19H31.85Z"/>
+				<path id="Path_14-2" data-name="Path 14-2" class="svg-logo svg-logo--letter" d="M42.28,115.69H46v-1.16H42.28v-2h4.13v-1.18H40.87V119h5.7v-1.18H42.28Z"/>
+				<path id="Path_15-2" data-name="Path 15-2" class="svg-logo svg-logo--letter" d="M52.72,115.6H51.07v-3h1.65c1.23,0,1.87.55,1.87,1.5S54,115.6,52.72,115.6ZM56,114.08c0-1.68-1.23-2.7-3.23-2.7H49.66V119h1.4v-2.21h2L54.62,119h1.51l-1.74-2.5A2.41,2.41,0,0,0,56,114.08Z"/>
+				<path id="Path_16-2" data-name="Path 16-2" class="svg-logo svg-logo--letter" d="M64.45,116.52l-4.18-5.14H59.11V119H60.5v-5.14L64.69,119h1.16v-7.59h-1.4Z"/>
+				<path id="Path_17-2" data-name="Path 17-2" class="svg-logo svg-logo--letter" d="M71,116.1l1.42-3.31,1.44,3.31Zm.74-4.72L68.34,119h1.45l.75-1.76h3.79l.76,1.76h1.47l-3.42-7.59Z"/>
+				<path id="Path_18-2" data-name="Path 18-2" class="svg-logo svg-logo--letter" d="M77.7,112.57h2.51V119h1.41v-6.4h2.52v-1.19H77.69Z"/>
+				<path id="Path_19-2" data-name="Path 19-2" class="svg-logo svg-logo--letter" d="M86.72,119h1.41v-7.59H86.72Z"/>
+				<path id="Path_20-2" data-name="Path 20-2" class="svg-logo svg-logo--letter" d="M95.24,117.84a2.58,2.58,0,0,1-2.66-2.5v-.17a2.58,2.58,0,0,1,2.5-2.67h.16A2.59,2.59,0,0,1,97.91,115v.16a2.58,2.58,0,0,1-2.5,2.67Zm0-6.57A3.88,3.88,0,0,0,91.16,115v.22A3.88,3.88,0,0,0,95,119.08h.22a3.89,3.89,0,0,0,4.09-3.67v-.24a3.88,3.88,0,0,0-3.85-3.91Z"/>
+				<path id="Path_21-2" data-name="Path 21-2" class="svg-logo svg-logo--letter" d="M107.7,116.52l-4.19-5.14h-1.16V119h1.4v-5.14l4.18,5.14h1.17v-7.59h-1.4Z"/>
+				<path id="Path_22-2" data-name="Path 22-2" class="svg-logo svg-logo--letter" d="M114.26,116.1l1.42-3.31,1.43,3.31Zm.74-4.72L111.58,119H113l.75-1.76h3.79l.76,1.76h1.47l-3.42-7.59Z"/>
+				<path id="Path_23-2" data-name="Path 23-2" class="svg-logo svg-logo--letter" d="M123.71,111.38H122.3V119h5.38v-1.19h-4Z"/>
+				
+				<path id="icon-1" data-name="icon-1" class="svg-logo svg-logo--icon" d="M55.72,60.78a25.44,25.44,0,0,0,7,5.69A23.69,23.69,0,0,0,83,67.79a11.13,11.13,0,0,0,2.1-1,.51.51,0,0,0,.17-.69.5.5,0,0,0-.57-.23c-.7.16-1.26.42-2.13.64a22.81,22.81,0,0,1-9.16.36,20.16,20.16,0,0,1-12.61-7.47A35.45,35.45,0,0,1,57.37,54c-.54-1-.86-2-1.59-1.9A4.18,4.18,0,0,0,53.12,54a2.72,2.72,0,0,0-.44,1.5,5,5,0,0,0,1,2.54A23.5,23.5,0,0,0,55.72,60.78Z"/>
+				<path id="icon-2" data-name="icon-2" class="svg-logo svg-logo--icon" d="M60.53,3.55c.7-.16,1.26-.42,2.12-.64a22.86,22.86,0,0,1,9.17-.36A20.15,20.15,0,0,1,84.43,10a36,36,0,0,1,3.42,5.47c.54,1,.86,1.94,1.59,1.9a4.25,4.25,0,0,0,2.66-1.89,2.76,2.76,0,0,0,.44-1.5,5,5,0,0,0-1-2.54A21.06,21.06,0,0,0,89.5,8.66a25.26,25.26,0,0,0-7-5.69,24,24,0,0,0-18-2.1,22.8,22.8,0,0,0-2.29.77,11.6,11.6,0,0,0-2.11,1,.5.5,0,0,0-.2.68A.51.51,0,0,0,60.53,3.55Z"/>
+				<path id="icon-3" data-name="icon-3" class="svg-logo svg-logo--icon" d="M72.61,27.15c2.12,0,3.84-2,3.84-4.58S74.73,18,72.61,18s-3.84,2-3.84,4.57S70.49,27.15,72.61,27.15Z"/>
+				<path id="icon-4" data-name="icon-4" class="svg-logo svg-logo--icon" d="M82.86,33.33A116,116,0,0,0,81.8,20.84c-.28-2-.6-4-1-6-.18-.87-.46-3-1.29-3.28a1,1,0,0,0-1.25.61,2,2,0,0,0,0,.24,12.5,12.5,0,0,0,0,2v0c0,.06,0,.13,0,.19s0,.38,0,.57c0-.11,0-.21,0-.29,0,.44.07.89.09,1.34,0,.91.06,1.82,0,2.73s-.07,1.8-.13,2.69c0,.45-.06.89-.12,1.33,0,.18,0,.37-.08.56l-.06.37L78,24c-.47,2.14-1.53,4.38-3.67,5.28a4.68,4.68,0,0,1-5.43-1.84c-1.54-2.08-1.69-4.86-1.73-7.35,0-3.09.34-6.16.59-9.23,0-.72.09-1.44.14-2.16a5.88,5.88,0,0,0,0-.73c0-.11,0-.23,0-.34A1,1,0,0,0,67,6.68a.64.64,0,0,0-.41,0c-.72.21-1.09,1.9-1.31,2.85a82.47,82.47,0,0,0-1.72,8.12A104.09,104.09,0,0,0,62.35,36a99.73,99.73,0,0,0,2.09,18.47c0,.22.09.44.13.66.19,1,.5,2.34,1.14,2.53a1,1,0,0,0,1.23-.62.78.78,0,0,0,0-.22,5.82,5.82,0,0,0,.07-.93c0-.25,0-.49,0-.66a43.13,43.13,0,0,1,.7-8.64c.46-2.13,1.22-4.66,3-6.06s3.88-.59,5.1,1.07a13.16,13.16,0,0,1,2,6.56,48.45,48.45,0,0,1-.31,9c-.1,1.06-.25,2.14-.31,3.21a11.34,11.34,0,0,0,0,1.43,1,1,0,0,0,1,.94h0l.19,0c.82-.19,1.22-2.33,1.44-3.17a2,2,0,0,0,.06-.23h0c.27-1.09.51-2.18.76-3.28A95.49,95.49,0,0,0,82.84,38C82.87,36.44,82.91,34.88,82.86,33.33Z"/>
+			</g>
+		</g>
+	</g>
+</svg></a>
+					
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						<span class="sr-only">Toggle Navigation</span>
+					</button>
+
+					<div id="nav-collapse" class="collapse navbar-collapse justify-content-lg-end">
+						
+						<div id="main-nav" class="menu-main-menu-container"><ul id="menu-main-menu" class="navbar-nav"><li id="menu-item-48222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48222 page-id-32872"><a href="https://humanists.international/join/" class="nav-link"><span class="nav-link__title">Join</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Be a part of the humanist movement – as an individual or an organization</div><div class="d-none menu-item__data" data-colour="pink-light"></div></li>
+<li id="menu-item-25588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25588 page-id-25556"><a href="https://humanists.international/what-is-humanism/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-fingerprint'></i> What is humanism?</span><span class="sub-menu__expand"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-25589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25589 page-id-25572"><a href="https://humanists.international/what-is-humanism/the-amsterdam-declaration/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-file-signature'></i> The Amsterdam Declaration</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">The democratic, defining statement of world humanism, from Humanists International</div><div class="d-none menu-item__data" data-colour="purple"></div></li>
+	<li id="menu-item-25590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25590 page-id-25571"><a href="https://humanists.international/what-is-humanism/world-humanist-day/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-globe'></i> World Humanist Day</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">How and why we mark 21 June as World Humanist Day</div><div class="d-none menu-item__data" data-colour="purple"></div></li>
+	<li id="menu-item-25591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25591 page-id-25570"><a href="https://humanists.international/what-is-humanism/faqs/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-question'></i> Humanism: FAQs</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Our answers to your frequently asked questions about the humanist worldview</div><div class="d-none menu-item__data" data-colour="purple"></div></li>
+	<li id="menu-item-46055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46055 page-id-45713"><a href="https://humanists.international/what-is-humanism/humanism-a-global-and-human-tradition/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-globe-americas'></i> Humanism: a global and human tradition</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Discover the world’s earliest humanist ideas</div><div class="d-none menu-item__data" data-colour="pink"></div></li>
+</ul>
+<div class="menu-item__description">Are you a humanist? Learn more about the rational, ethical worldview that is humanism</div><div class="d-none menu-item__data" data-colour="purple"></div></li>
+<li id="menu-item-25592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25592 page-id-25557"><a href="https://humanists.international/about/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-info'></i> About</span><span class="sub-menu__expand"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-25594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25594 page-id-25566"><a href="https://humanists.international/about/our-members/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-users'></i> Our members</span><span class="sub-menu__expand"></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-48597" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48597 page-id-48597"><a href="/civi/profile/map/?map=1&#038;gid=19&#038;reset=1" class="nav-link"><span class="nav-link__title">Explore our members</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour=""></div></li>
+		<li id="menu-item-48598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48598 page-id-48598"><a href="/civi/profile/?gid=19&#038;reset=1&#038;force=1" class="nav-link"><span class="nav-link__title">Search the Members List</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour=""></div></li>
+		<li id="menu-item-29963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29963 page-id-25734"><a href="https://humanists.international/about/our-members/membership-resources/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-download'></i> Membership resources</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="pink"></div></li>
+		<li id="menu-item-29964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29964 page-id-25736"><a href="https://humanists.international/about/our-members/general-assembly/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-keynote'></i> General Assembly</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="pink"></div></li>
+	</ul>
+<div class="menu-item__description">Discover a world of humanism: find your nearest group or national organization</div><div class="d-none menu-item__data" data-colour="pink"></div></li>
+	<li id="menu-item-25593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25593 page-id-25567"><a href="https://humanists.international/about/our-people/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-sitemap'></i> Our people</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Meet the staff, representatives and Board of Humanists International</div><div class="d-none menu-item__data" data-colour="pink"></div></li>
+	<li id="menu-item-25595" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25595 page-id-25565"><a href="https://humanists.international/about/work-with-us/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-list-ul'></i> Work with us</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Jobs and volunteering opportunities</div><div class="d-none menu-item__data" data-colour="pink"></div></li>
+	<li id="menu-item-25596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25596 page-id-25564"><a href="https://humanists.international/about/awards/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-trophy'></i> Awards</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Recognizing achievement in the worldwide humanist movement</div><div class="d-none menu-item__data" data-colour="pink"></div></li>
+	<li id="menu-item-25597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25597 page-id-25563"><a href="https://humanists.international/about/contact-us/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-envelope'></i> Contact us</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">You can reach Humanists International here</div><div class="d-none menu-item__data" data-colour="pink"></div></li>
+	<li id="menu-item-25598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25598 page-id-25562"><a href="https://humanists.international/about/young-humanists-international/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-child'></i> Young Humanists International</span><span class="sub-menu__expand"></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-48610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48610 page-id-47136"><a href="https://humanists.international/about/young-humanists-international/young-humanist-faces/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-portrait'></i> Young Humanist Faces</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="pink"></div></li>
+	</ul>
+<div class="menu-item__description">Young Humanists International is our youth section, for 18 to 35-year-olds</div><div class="d-none menu-item__data" data-colour="pink"></div></li>
+</ul>
+<div class="menu-item__description">What is Humanists International?</div><div class="d-none menu-item__data" data-colour="pink-light"></div></li>
+<li id="menu-item-25599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25599 page-id-25558"><a href="https://humanists.international/what-we-do/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-layer-group'></i> What we do</span><span class="sub-menu__expand"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-25600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25600 page-id-25577"><a href="https://humanists.international/what-we-do/advocacy/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-podium'></i> Advocacy</span><span class="sub-menu__expand"></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-35829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35829 page-id-34986"><a href="https://humanists.international/what-we-do/advocacy/issues/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-pennant'></i> Issues</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Humanist International has a strategic focus on a range of issues in our advocacy and campaigns work.</div><div class="d-none menu-item__data" data-colour="blue"></div></li>
+		<li id="menu-item-41762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41762 page-id-38347"><a href="https://humanists.international/what-we-do/advocacy/advocacy-statement/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-wheat'></i> Advocacy statements</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="blue"></div></li>
+		<li id="menu-item-49611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49611 page-id-48436"><a href="https://humanists.international/what-we-do/advocacy/forb-good-practice-guide/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-book'></i> FoRB Good Practice Guide</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="pink-light"></div></li>
+	</ul>
+<div class="menu-item__description">We defend human rights and promote rational, democratic international law</div><div class="d-none menu-item__data" data-colour="blue"></div></li>
+	<li id="menu-item-25601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25601 page-id-25576"><a href="https://humanists.international/what-we-do/growth-and-development/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-hand-holding-seedling'></i> Growth &#038; Development</span><span class="sub-menu__expand"></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-47913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47913 page-id-46757"><a href="https://humanists.international/what-we-do/growth-and-development/supported-projects/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-user-plus'></i> Supported Projects</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Read more about the projects supported by Humanists International.</div><div class="d-none menu-item__data" data-colour="blue"></div></li>
+	</ul>
+<div class="menu-item__description">We support our Member Organizations to build the humanist movement</div><div class="d-none menu-item__data" data-colour="blue"></div></li>
+	<li id="menu-item-41742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41742 page-id-41731"><a href="https://humanists.international/what-we-do/supporting-individuals-at-risk/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-exclamation-triangle'></i> Supporting individuals at risk</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">How we protect humanists at risk all around the world</div><div class="d-none menu-item__data" data-colour="pink-light"></div></li>
+	<li id="menu-item-25602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25602 page-id-25575"><a href="https://humanists.international/what-we-do/policies/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-file-check'></i> Policies</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">The searchable archive of past and present policy – since 1952!</div><div class="d-none menu-item__data" data-colour="blue"></div></li>
+	<li id="menu-item-25603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25603 page-id-25574"><a href="https://humanists.international/what-we-do/case-studies/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-suitcase'></i> Case Studies — Stories of Success</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">See examples of our work in practice</div><div class="d-none menu-item__data" data-colour="pink-light"></div></li>
+	<li id="menu-item-25604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25604 page-id-25573"><a href="https://humanists.international/what-we-do/freedom-of-thought-report/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-file-chart-line'></i> Freedom of Thought Report</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Our flagship publication, recording discrimination against the non-religious globally</div><div class="d-none menu-item__data" data-colour="blue"></div></li>
+</ul>
+<div class="menu-item__description">Learn more about the work of Humanists International</div><div class="d-none menu-item__data" data-colour="blue"></div></li>
+<li id="menu-item-25608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25608 page-id-25581"><a href="https://humanists.international/news/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-newspaper'></i> News</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="blue-light"></div></li>
+<li id="menu-item-25605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25605 page-id-25559"><a href="https://humanists.international/get-involved/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-star'></i> Get involved</span><span class="sub-menu__expand"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-25606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25606 page-id-25583"><a href="https://humanists.international/get-involved/campaigns/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-megaphone'></i> Campaigns</span><span class="sub-menu__expand"></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-29967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29967 page-id-25920"><a href="https://humanists.international/get-involved/campaigns/end-blasphemy-laws/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-gavel'></i> End Blasphemy Laws</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="blue"></div></li>
+		<li id="menu-item-29968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29968 page-id-25918"><a href="https://humanists.international/get-involved/campaigns/humanists-at-risk/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-hands-helping'></i> Protect Humanists At Risk</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="dark"></div></li>
+		<li id="menu-item-40009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40009 page-id-39952"><a href="https://humanists.international/get-involved/campaigns/humanists-at-risk-report/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-bullhorn'></i> Humanists at Risk: Action Report 2020</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="dark"></div></li>
+	</ul>
+<div class="menu-item__description">How we’re working to change the world for the better</div><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+	<li id="menu-item-49932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49932 page-id-46760"><a href="https://humanists.international/get-involved/cases-of-concern/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-exclamation-triangle '></i> Cases of concern</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Up-to-date information on the individual cases we are supporting</div><div class="d-none menu-item__data" data-colour="blue-light"></div></li>
+	<li id="menu-item-25609" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25609 page-id-25580"><a href="https://humanists.international/get-involved/blog/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-comment-lines'></i> Blog</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">The official Humanists International blog</div><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+	<li id="menu-item-25610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25610 page-id-25579"><a href="https://humanists.international/get-involved/events/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-calendar-alt'></i> Events</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Meetings and events for Humanists International</div><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+	<li id="menu-item-25611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25611 page-id-25578"><a href="https://humanists.international/get-involved/resources/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-book'></i> Resources</span><span class="sub-menu__expand"></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-29966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29966 page-id-25742"><a href="https://humanists.international/get-involved/resources/humanist-prism/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-gem'></i> Humanist Prism</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+		<li id="menu-item-29970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970 page-id-25744"><a href="https://humanists.international/get-involved/resources/the-right-to-apostasy-in-the-world/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-sign-out'></i> The right to apostasy in the world</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+	</ul>
+<div class="menu-item__description">Toolkits, documents, maps and lists on humanism and humanist activism</div><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+	<li id="menu-item-25936" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25936 page-id-25931"><a href="https://humanists.international/donate/" class="nav-link"><span class="nav-link__title"><i class='fas fa-fw fa-donate'></i> Donate</span><span class="sub-menu__expand"></span></a><div class="menu-item__description">Support our work and the global humanist movement with a donation</div><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+</ul>
+<div class="menu-item__description">Support our goals? Here’s how you can participate in the humanist movement</div><div class="d-none menu-item__data" data-colour="yellow"></div></li>
+<li id="menu-item-26200" class="header-search-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-26200 page-id-26200"><a href="https://humanists.international/?s=" class="nav-link"><span class="nav-link__title">Search</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour=""></div></li>
+<li id="menu-item-48215" class="header-donate-btn menu-item menu-item-type-post_type menu-item-object-page menu-item-48215 page-id-48065"><a href="https://humanists.international/support/" class="nav-link"><span class="nav-link__title">Support us</span><span class="sub-menu__expand"></span></a><div class="d-none menu-item__data" data-colour="pink-light"></div></li>
+</ul></div>
+						<div class="header__search">
+							<form role="search" method="get" class="header-search__form" action="https://humanists.international">
+								<div class="form-group">
+									<label class="sr-only" for="s">Search for:</label>
+									<input placeholder="Search here..." class="form-control" type="text" value="" name="s" id="s">
+								</div>
+								<input class="btn btn-inverse btn-md" type="submit" id="searchsubmit" value="Start Search">
+							</form>
+							<p class="small text-right mb-0 mt-2 clearfix w-100"><a class="text-white" href="https://humanists.international?s=">Advanced Search</a></p>
+						</div>
+
+					</div>
+
+				</nav>
+				<div class="navbar__curve navbar__curve--dark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1359.59 116.16" preserveAspectRatio="none"><defs><style>.svgcurve{fill:#d20d4b;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="SVGCURVE"><path id="Path_53" data-name="Path 53" class="svgcurve" d="M1359.59,48.35c-169.76,16.09-345.68,25-516.34,27.79-314.09,5.07-586.47-18-782.93-61.37C39.09,10.07,19.12,5.14.12,0L0,87.93q84.29,9.38,176.93,15.78C516.23,127,922,117.52,1297.28,76.11q31.35-3.47,62.3-7.2Z"/></g></g></svg></div>
+				<div class="navbar__curve navbar__curve--base"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1359.59 116.16" preserveAspectRatio="none"><defs><style>.svgcurve{fill:#d20d4b;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="SVGCURVE"><path id="Path_53" data-name="Path 53" class="svgcurve" d="M1359.59,48.35c-169.76,16.09-345.68,25-516.34,27.79-314.09,5.07-586.47-18-782.93-61.37C39.09,10.07,19.12,5.14.12,0L0,87.93q84.29,9.38,176.93,15.78C516.23,127,922,117.52,1297.28,76.11q31.35-3.47,62.3-7.2Z"/></g></g></svg></div>
+			</div>
+			<div id="dd">
+				<div class="container">
+					<div class="row">
+						<div id="dd__main" class="col-3"></div>
+						<div id="dd__submenu" class="col-9"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav-spacer"></div>
+		<section class="section home-hero-carousel">
+	<div class="container">
+		<div class="home-carousel">	
+		<div><article class="post-card " data-post_id="51361">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/08/humanists-international-calls-on-un-to-urgently-investigate-human-rights-violations-in-afghanistan/" title="Humanists International calls on UN to urgently investigate human rights violations in Afghanistan">
+				<img width="900" height="613" src="https://humanists.international/wp-content/uploads/2021/08/afhan-photo.jpg" class="attachment-theme-home-carousel size-theme-home-carousel wp-post-image" alt="" loading="lazy" srcset="https://humanists.international/wp-content/uploads/2021/08/afhan-photo.jpg 900w, https://humanists.international/wp-content/uploads/2021/08/afhan-photo-300x204.jpg 300w, https://humanists.international/wp-content/uploads/2021/08/afhan-photo-768x523.jpg 768w, https://humanists.international/wp-content/uploads/2021/08/afhan-photo-260x177.jpg 260w, https://humanists.international/wp-content/uploads/2021/08/afhan-photo-250x170.jpg 250w" sizes="(max-width: 900px) 100vw, 900px" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Advocacy News<span class="text-blue-light"> / </span>24 August 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/08/humanists-international-calls-on-un-to-urgently-investigate-human-rights-violations-in-afghanistan/" title="Humanists International calls on UN to urgently investigate human rights violations in Afghanistan">Humanists International calls on UN to urgently investigate human rights violations in Afghanistan</a></h3>
+
+			<div class="post-card__excerpt">
+				Today at the UN, Humanists International has urged the international community to establish an adequately resourced fact-finding mission to investigate&hellip;			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/08/humanists-international-calls-on-un-to-urgently-investigate-human-rights-violations-in-afghanistan/" title="Humanists International calls on UN to urgently investigate human rights violations in Afghanistan">Read More</a>
+		</div>
+	</div>
+</article></div><div><article class="post-card " data-post_id="51614">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/09/nigeria-grant-mubarak-bala-access-to-all-necessary-medical-care/" title="Nigeria: Grant Mubarak Bala access to all necessary medical care">
+				<img width="900" height="600" src="https://humanists.international/wp-content/uploads/2021/08/900-x-600-mubarak-1.jpg" class="attachment-theme-home-carousel size-theme-home-carousel wp-post-image" alt="" loading="lazy" srcset="https://humanists.international/wp-content/uploads/2021/08/900-x-600-mubarak-1.jpg 900w, https://humanists.international/wp-content/uploads/2021/08/900-x-600-mubarak-1-300x200.jpg 300w, https://humanists.international/wp-content/uploads/2021/08/900-x-600-mubarak-1-768x512.jpg 768w, https://humanists.international/wp-content/uploads/2021/08/900-x-600-mubarak-1-260x173.jpg 260w, https://humanists.international/wp-content/uploads/2021/08/900-x-600-mubarak-1-250x167.jpg 250w" sizes="(max-width: 900px) 100vw, 900px" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Action Alert - Live<span class="text-blue-light"> / </span>13 September 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/09/nigeria-grant-mubarak-bala-access-to-all-necessary-medical-care/" title="Nigeria: Grant Mubarak Bala access to all necessary medical care">Nigeria: Grant Mubarak Bala access to all necessary medical care</a></h3>
+
+			<div class="post-card__excerpt">
+				Concerns for the health of Mubarak Bala			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/09/nigeria-grant-mubarak-bala-access-to-all-necessary-medical-care/" title="Nigeria: Grant Mubarak Bala access to all necessary medical care">Read More</a>
+		</div>
+	</div>
+</article></div><div><article class="page-card" data-post_id="48436">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/what-we-do/advocacy/forb-good-practice-guide/" title=" FoRB Good Practice Guide">
+			<img width="900" height="600" src="https://humanists.international/wp-content/uploads/2021/07/guide-900-600.png" class="attachment-theme-home-carousel size-theme-home-carousel wp-post-image" alt="" loading="lazy" srcset="https://humanists.international/wp-content/uploads/2021/07/guide-900-600.png 900w, https://humanists.international/wp-content/uploads/2021/07/guide-900-600-300x200.png 300w, https://humanists.international/wp-content/uploads/2021/07/guide-900-600-768x512.png 768w, https://humanists.international/wp-content/uploads/2021/07/guide-900-600-260x173.png 260w, https://humanists.international/wp-content/uploads/2021/07/guide-900-600-250x167.png 250w" sizes="(max-width: 900px) 100vw, 900px" />			</a>
+		</div>
+
+		<div class="post-card__body">	
+			<h3 class="post-card__meta">
+				<span class="icon bg-pink-light text-white"><i class="fas fa-fw fa-book"></i></span>
+				<a href="https://humanists.international/what-we-do/advocacy/forb-good-practice-guide/" title=" FoRB Good Practice Guide"><i class='fas fa-fw fa-book'></i> FoRB Good Practice Guide</a></h3>
+
+							<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/what-we-do/advocacy/forb-good-practice-guide/" title=" FoRB Good Practice Guide"><i class='fas fa-fw fa-book'></i> FoRB Good Practice Guide</a></h3>
+			
+			<div class="post-card__excerpt post-card__excerpt--page">
+				What is Freedom of Religion or Belief? And why it is important? Read our new Guide to find it out!			</div>
+
+			<a class="post-card__link" href="https://humanists.international/what-we-do/advocacy/forb-good-practice-guide/" title=" FoRB Good Practice Guide">Read More</a>
+		</div>
+	</div>
+</article></div><div><article class="post-card " data-post_id="48924">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/06/launch-2021-phar/" title="Humanists International launches the 2021 Protect Humanists At Risk campaign">
+				<img width="900" height="600" src="https://humanists.international/wp-content/uploads/2021/06/phar-2021-900-600-1.png" class="attachment-theme-home-carousel size-theme-home-carousel wp-post-image" alt="" loading="lazy" srcset="https://humanists.international/wp-content/uploads/2021/06/phar-2021-900-600-1.png 900w, https://humanists.international/wp-content/uploads/2021/06/phar-2021-900-600-1-300x200.png 300w, https://humanists.international/wp-content/uploads/2021/06/phar-2021-900-600-1-768x512.png 768w, https://humanists.international/wp-content/uploads/2021/06/phar-2021-900-600-1-260x173.png 260w, https://humanists.international/wp-content/uploads/2021/06/phar-2021-900-600-1-250x167.png 250w" sizes="(max-width: 900px) 100vw, 900px" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Humanists At Risk<span class="text-blue-light"> / </span>29 June 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/06/launch-2021-phar/" title="Humanists International launches the 2021 Protect Humanists At Risk campaign">Humanists International launches the 2021 Protect Humanists At Risk campaign</a></h3>
+
+			<div class="post-card__excerpt">
+				On 29 June Humanists International launched its annual fundraising campaign to raise £25,000 needed to assist humanists who risk their&hellip;			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/06/launch-2021-phar/" title="Humanists International launches the 2021 Protect Humanists At Risk campaign">Read More</a>
+		</div>
+	</div>
+</article></div><div><article class="post-card " data-post_id="50905">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/08/ga2021-post-event-report/" title="Humanists International welcomes over 80 delegates at its second ever online General Assembly">
+				<img width="1000" height="860" src="https://humanists.international/wp-content/uploads/2021/08/82-1000x860.jpg" class="attachment-theme-home-carousel size-theme-home-carousel wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Humanists International News<span class="text-blue-light"> / </span>15 August 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/08/ga2021-post-event-report/" title="Humanists International welcomes over 80 delegates at its second ever online General Assembly">Humanists International welcomes over 80 delegates at its second ever online General Assembly</a></h3>
+
+			<div class="post-card__excerpt">
+				Another successful General Assembly for Humanists International.			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/08/ga2021-post-event-report/" title="Humanists International welcomes over 80 delegates at its second ever online General Assembly">Read More</a>
+		</div>
+	</div>
+</article></div>		</div>
+	</div>
+</section>
+
+    <section class="section section--fc donate_block bg-white section-text-dark" id="section-1">
+    <div class="donate-block donate-block-wrap">
+  <!-- Container: Closed -->        <div class="container">
+          <form action="support-monthly" method="GET">
+    <div class="donate-block">
+              <div class="donate-block_item donate-block_item--intro">
+          <p>We rely on the support of humanists like you to keep our work moving forward</p>
+        </div>
+      
+              <div class="donate-block_item donate-block_item--amounts">
+                      <small class="text-white">Amount</small>
+          
+          <div class="d-flex">
+              <ul class="donate-block__radio-group">
+                                    <li>
+                    <input id="1_amount_1" type="radio" name='amount' value="20">
+                    <label for="1_amount_1">&euro;20</label>
+                  </li>
+                                    <li>
+                    <input id="1_amount_2" type="radio" name='amount' value="50">
+                    <label for="1_amount_2">&euro;50</label>
+                  </li>
+                                    <li>
+                    <input id="1_amount_3" type="radio" name='amount' value="100">
+                    <label for="1_amount_3">&euro;100</label>
+                  </li>
+                                    <li>
+                    <input id="1_amount_4" type="radio" name='amount' value="400">
+                    <label for="1_amount_4">&euro;400</label>
+                  </li>
+                                </ul>
+
+                                <div class="other">
+                    <ul class="donate-block__radio-group">
+                      <li>
+                        <input id="1_amount_other" type="radio" name='amount' value="">
+                        <label for="1_amount_other">Other</label>
+                      </li>
+                    </ul>
+                  </div>
+                        </div>
+        </div>
+                    <div class="donate-block_item donate-block_item--type">
+                      <small class="text-white">Type</small>
+          
+          <ul class="donate-block__radio-group">
+                        <li>
+              <input id="1_type_1" type="radio" name="freq" value="donate">
+              <label for="1_type_1">One off</label>
+            </li>
+                        <li>
+              <input id="1_type_2" type="radio" name="freq" value="support-monthly">
+              <label for="1_type_2">Monthly</label>
+            </li>
+                      </ul>
+        </div>
+      
+              <div class="donate-block_item donate-block_item--button">
+          <input class="btn btn-donate" type="submit" value="Make this donation">
+        </div>
+          </div>
+  </form>
+  <!-- Container: Open -->        </div> 
+        </div>
+    </section>
+    	    <section class="section section--fc page_cards bg-white section-text-dark" id="section-2">
+    		<!-- Container: Closed -->        <div class="container">
+        			<div class="page-cards">
+							<div class="page-card__layout">
+					<a class="page-card" href="https://humanists.international/old-join/" title="Learn more about becoming a member of Humanists International">
+						<div class="page-card__meta">
+							<div class="icon bg-pink-light"><i class="fas fa-fw fa-heart"></i></div>
+							<div class="page-name"><i class='fas fa-fw fa-heart'></i> Join</div>
+						</div>
+						<h3 class="page-card__link">Learn more about becoming a member of Humanists International</h3>
+					</a>
+				</div>
+							<div class="page-card__layout">
+					<a class="page-card" href="https://humanists.international/what-is-humanism/" title="Discover the meaning and values of humanism">
+						<div class="page-card__meta">
+							<div class="icon bg-purple"><i class="fas fa-fw fa-fingerprint"></i></div>
+							<div class="page-name"><i class='fas fa-fw fa-fingerprint'></i> What is humanism?</div>
+						</div>
+						<h3 class="page-card__link">Discover the meaning and values of humanism</h3>
+					</a>
+				</div>
+							<div class="page-card__layout">
+					<a class="page-card" href="https://humanists.international/take-action/" title="View our campaigns and how to take part">
+						<div class="page-card__meta">
+							<div class="icon bg-yellow"><i class="fas fa-fw fa-bullseye"></i></div>
+							<div class="page-name"><i class='fas fa-fw fa-bullseye'></i> Take Action</div>
+						</div>
+						<h3 class="page-card__link">View our campaigns and how to take part</h3>
+					</a>
+				</div>
+							<div class="page-card__layout">
+					<a class="page-card" href="https://humanists.international/about/our-members/" title="Search for members and organizations near you">
+						<div class="page-card__meta">
+							<div class="icon bg-pink"><i class="fas fa-fw fa-users"></i></div>
+							<div class="page-name"><i class='fas fa-fw fa-users'></i> Our members</div>
+						</div>
+						<h3 class="page-card__link">Search for members and organizations near you</h3>
+					</a>
+				</div>
+							<div class="page-card__layout">
+					<a class="page-card" href="https://humanists.international/what-we-do/case-studies/" title="See case studies of our work around the world">
+						<div class="page-card__meta">
+							<div class="icon bg-pink-light"><i class="fas fa-fw fa-suitcase"></i></div>
+							<div class="page-name"><i class='fas fa-fw fa-suitcase'></i> Case Studies — Stories of Success</div>
+						</div>
+						<h3 class="page-card__link">See case studies of our work around the world</h3>
+					</a>
+				</div>
+							<div class="page-card__layout">
+					<a class="page-card" href="https://humanists.international/get-involved/resources/" title="Find advice and tips from member organizations">
+						<div class="page-card__meta">
+							<div class="icon bg-yellow"><i class="fas fa-fw fa-book"></i></div>
+							<div class="page-name"><i class='fas fa-fw fa-book'></i> Resources</div>
+						</div>
+						<h3 class="page-card__link">Find advice and tips from member organizations</h3>
+					</a>
+				</div>
+						</div>
+		<!-- Container: Open -->        </div> 
+        	    </section>
+        <section class="section section--fc latest_news_map bg-white section-text-dark" id="section-3">
+    	<!-- Container: Closed -->        <div class="container">
+        		<div class="row">
+			<div class="col-12 col-md-6">
+									<h3 class="map-title">Latest News from around the world</h3>
+							</div>
+			<div class="col-12 col-md-6 text-right">
+								<a class="btn btn-default" href="https://humanists.international/news/" title="See all our news">See all our news</a>
+							</div>
+		</div>
+	<!-- Container: Open -->        </div> 
+        	
+
+	
+
+		<div class="w-100" style="border-top: 1px solid #ececec; background: #ececec;">
+		
+		<div class="w-100" style="max-width: 1400px; margin: 0 auto;">
+			<div class="acf-map latest-news-map">
+									<div class="marker" data-lat="0.4927923454124411" data-lng="37.89520667187503" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/09/samuel-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/09/ban-on-gay-film-is-uncalled-for-says-the-atheists-in-kenya-society/">“Ban on gay film is uncalled for”, says the Atheists in Kenya Society</a></h4>
+									<p class="small mb-0">24 September 2021 | B9, Kenya</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="39.07420800000001" data-lng="21.824311999999964" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/09/school-705x460.jpeg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/09/humanist-international-supports-greek-parents-plea-on-religious-education-exemption-in-schools/">Humanist International supports Greek parents' plea on religious education exemption in schools</a></h4>
+									<p class="small mb-0">24 September 2021 | Greece</p>
+								</div>
+							</div>
+						</div>
+					</div>
+																		<div class="marker" data-lat="40.24599169263228" data-lng="-100.81054725000001" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/aa-donation-aa-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/08/american-atheists-donate-over-4000-to-the-protect-humanists-at-risk-campaign/">American Atheists donate over $4,000 to the Protect Humanists At Risk campaign</a></h4>
+									<p class="small mb-0">27 August 2021 | Unnamed Road, Culbertson, NE 69024, USA</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="55.378051" data-lng="-3.43597299999999" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/Apostasy-Conference-News-Item-705x460.png" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/08/faith-to-faithless-hosts-first-national-conference-on-apostasy-in-the-u-k/">Faith to Faithless hosts first national conference on apostasy in the U.K.</a></h4>
+									<p class="small mb-0">27 August 2021 | United Kingdom</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="33.93911" data-lng="67.70995300000004" data-url="https://humanists.international/" data-posttype="blog">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/Afganistan-HRC-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/blog/today-the-un-human-rights-council-failed-the-afghan-people-and-betrayed-all-defenders-of-human-rights/">Today, the UN Human Rights Council failed the Afghan people and betrayed all defenders of human rights</a></h4>
+									<p class="small mb-0">24 August 2021 | Afghanistan</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="12.536771328218107" data-lng="122.87264981249996" data-url="https://humanists.international/" data-posttype="blog">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/monalisa-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/blog/the-role-of-art-in-a-humanistic-society/">The Role of Art in a Humanistic Society</a></h4>
+									<p class="small mb-0">17 August 2021 | </p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="33.854721" data-lng="35.86228499999993" data-url="https://humanists.international/" data-posttype="blog">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/alevision-co-BCEtsZ6zqhQ-unsplash-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/blog/the-hollow-theatrics-of-lebanons-human-rights-presentation-at-the-un/">The hollow theatrics of Lebanon’s human rights presentation at the UN</a></h4>
+									<p class="small mb-0">13 August 2021 | Lebanon</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="7.873053999999999" data-lng="80.77179699999999" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/900-x-600-Rishvin-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/08/rishvin-ismath-phar-2021/">The only outspoken ex-Muslim of Sri Lanka: an interview with Rishvin Ismath</a></h4>
+									<p class="small mb-0">10 August 2021 | Sri Lanka</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="49.815273" data-lng="6.129583000000025" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/aha-donates-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/08/aha-donation-phar-2021/">Luxembourgish humanists donate £900 to the Protect Humanists At Risk campaign, for the second time in three years</a></h4>
+									<p class="small mb-0">5 August 2021 | Luxembourg</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="21.00789" data-lng="-10.940834999999993" data-url="https://humanists.international/" data-posttype="blog">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="651" height="460" src="https://humanists.international/wp-content/uploads/2021/08/interview-mkhaitir-e1630059651294-651x460.png" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/blog/writing-was-my-way-of-fighting-against-untouchability-in-mauritania-interview-with-mohamed-cheikh-ould-mkhaitir/">"Writing was my way of fighting against untouchability in Mauritania": interview with Mohamed Cheikh Ould Mkhaitir</a></h4>
+									<p class="small mb-0">5 August 2021 | Mauritania</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="8.204796071138123" data-lng="20.62180424999997" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/daria-rom-fT4BRGAK5aQ-unsplash-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/08/un-adopts-landmark-resolution-condemning-witchcraft-accusations/">UN adopts landmark resolution condemning witchcraft accusations</a></h4>
+									<p class="small mb-0">5 August 2021 | Ndélé, Central African Republic</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="20.593684" data-lng="78.96288000000004" data-url="https://humanists.international/" data-posttype="blog">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/07/In-Conversation-with-Father-Stan-Swamy-14-30-screenshot-705x460.png" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/blog/capital-punishment-without-trial-in-india-about-the-death-in-custody-of-father-stan-swamy/">"Capital Punishment without trial in India": about the death in custody of Father Stan Swamy</a></h4>
+									<p class="small mb-0">8 July 2021 | India</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="51.165691" data-lng="10.451526000000058" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/07/hv-donate-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/07/the-humanist-association-donates-5000-to-the-protect-humanists-at-risk-campaign/">The Humanist Association donates £5,000 to the Protect Humanists At Risk campaign</a></h4>
+									<p class="small mb-0">6 July 2021 | Germany</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="50.503887" data-lng="4.4699359999999615" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/07/demens-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/07/demensnu-phar2021/">deMens.nu donates £900 to the Protect Humanists At Risk campaign, for the second year in a row</a></h4>
+									<p class="small mb-0">2 July 2021 | Belgium</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="41.87194" data-lng="12.567379999999957" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/06/6039231f0c146-06039231f0c35e-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/06/unprecedented-interference-of-the-vatican-to-modify-an-anti-hate-crime-law-in-italy/">Unprecedented interference of the Vatican to modify an anti-hate crime law in Italy</a></h4>
+									<p class="small mb-0">22 June 2021 | Italy</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="51.919438" data-lng="19.14513599999998" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/06/main-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/06/homophobia-kills/">“Homophobia kills”: Polish atheists launch a new campaign to stop hate against LGBTI+ people</a></h4>
+									<p class="small mb-0">16 June 2021 | Poland</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="28.394857" data-lng="84.124008" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="447" src="https://humanists.international/wp-content/uploads/2021/05/nepal1-e1622128613418-705x447.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/05/nepal-humanist-against-pandemic/">How Nepalese humanists are in the frontline against the COVID-19 pandemic</a></h4>
+									<p class="small mb-0">27 May 2021 | Nepal</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="-13.489454447160803" data-lng="34.14222324218747" data-url="https://humanists.international/" data-posttype="blog">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/05/good-705x460.jpeg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/blog/good-without-god/">Good without God</a></h4>
+									<p class="small mb-0">24 May 2021 | Nkhotakota, Malawi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="3.0482923473964445" data-lng="45.36465506249999" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/05/Mahmoud-new-photo-1-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/05/somali-academic-reaches-safety-at-last/">Somali academic reaches safety, at last</a></h4>
+									<p class="small mb-0">4 May 2021 | Jawhar, Somalia</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="47.162494" data-lng="19.503304100000037" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/04/jure-tufekcic-jOyTeT946cw-unsplash-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/04/hungarian-atheists-upr-report-exposes-crisis-of-human-rights-and-democracy/">Hungarian Atheists' UPR report exposes crisis of human rights and democracy</a></h4>
+									<p class="small mb-0">26 April 2021 | Hungary</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="28.421076746160384" data-lng="2.802204125000003" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="370" height="296" src="https://humanists.international/wp-content/uploads/2021/04/Said_Djabelkhir-e1624282702334.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" srcset="https://humanists.international/wp-content/uploads/2021/04/Said_Djabelkhir-e1624282702334.jpg 370w, https://humanists.international/wp-content/uploads/2021/04/Said_Djabelkhir-e1624282702334-300x240.jpg 300w, https://humanists.international/wp-content/uploads/2021/04/Said_Djabelkhir-e1624282702334-225x180.jpg 225w, https://humanists.international/wp-content/uploads/2021/04/Said_Djabelkhir-e1624282702334-250x200.jpg 250w" sizes="(max-width: 370px) 100vw, 370px" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/04/algeria-quash-the-conviction-of-humanist-academic-said-djabelkhir/">Algeria: quash the conviction of humanist academic Said Djabelkhir</a></h4>
+									<p class="small mb-0">22 April 2021 | Tamanrasset Province, Algeria</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="18.220833" data-lng="-66.590149" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/03/GettyImages-1157214465-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/03/gay-conversion-therapies-are-torture-say-humanists-of-puerto-rico/">“Gay conversion therapies are torture”, say Humanists of Puerto Rico</a></h4>
+									<p class="small mb-0">23 March 2021 | Puerto Rico</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="7.990048017118277" data-lng="-1.1989752499999895" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/03/EtdcJKfXAAA5Zlg-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/03/humanists-call-for-ghana-tunisia-and-turkey-to-cease-persecution-of-lgbti-activists/">Humanists call for Ghana, Tunisia and Turkey to cease persecution of LGBTI activists</a></h4>
+									<p class="small mb-0">19 March 2021 | Pru, Ghana</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="45.1" data-lng="15.200000100000011" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/03/arber-pacara-Z_YpluyHC3c-unsplash-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/03/in-croatia-access-to-abortion-is-exposed-to-intense-ideological-pressure-says-humanists-international-at-un/">In Croatia, access to abortion is “exposed to intense ideological pressure”, says Humanists International at UN</a></h4>
+									<p class="small mb-0">18 March 2021 | Croatia</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="6.335249868065386" data-lng="-9.303156226562464" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/03/147901211_440299687320686_1260602707514027546_n-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/03/liberian-humanists-condemn-expulsion-of-six-year-old-student-for-witchcraft/">Liberian humanists condemn expulsion of six-year old student for ‘witchcraft’</a></h4>
+									<p class="small mb-0">17 March 2021 | Doedain, Liberia</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="-0.6187829005954749" data-lng="73.00095343750002" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/03/Maldives-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/03/at-un-humanists-international-criticizes-the-maldives-on-its-human-rights-record/">At UN, Humanists International criticizes the Maldives on its Human Rights record</a></h4>
+									<p class="small mb-0">16 March 2021 | </p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="23.684994" data-lng="90.35633099999995" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="624" height="288" src="https://humanists.international/wp-content/uploads/2021/03/Rev_Bue_Fayadh.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" srcset="https://humanists.international/wp-content/uploads/2021/03/Rev_Bue_Fayadh.jpg 624w, https://humanists.international/wp-content/uploads/2021/03/Rev_Bue_Fayadh-300x138.jpg 300w, https://humanists.international/wp-content/uploads/2021/03/Rev_Bue_Fayadh-260x120.jpg 260w, https://humanists.international/wp-content/uploads/2021/03/Rev_Bue_Fayadh-250x115.jpg 250w" sizes="(max-width: 624px) 100vw, 624px" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/03/humanists-international-at-un-justice-for-asad-noor-and-ashraf-fayadh-is-long-overdue/">Humanists International at UN: justice for Asad Noor and Ashraf Fayadh is long overdue</a></h4>
+									<p class="small mb-0">16 March 2021 | Bangladesh</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="32.427908" data-lng="53.688045999999986" data-url="https://humanists.international/" data-posttype="post">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/03/hassan-hedayatzadeh-MiDjXjbluUc-unsplash-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/2021/03/humanists-international-condemns-irans-culture-of-impunity-at-un/">Humanists International condemns Iran's "culture of impunity," at UN</a></h4>
+									<p class="small mb-0">16 March 2021 | Iran</p>
+								</div>
+							</div>
+						</div>
+					</div>
+														<div class="marker" data-lat="45.943161" data-lng="24.966760000000022" data-url="https://humanists.international/" data-posttype="blog">
+						<div style="width: 100%; min-width: 18rem; max-width: 25rem;">
+							<div style="display: flex;">
+																	<div style="flex: 0 0 35%; padding-right: 1rem;">
+										<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/03/3-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" style="max-width:100%;height:auto;" />									</div>
+																<div style="flex: 1;">
+									<h4 class="mb-1"><a style="color: #E61B61;" href="https://humanists.international/blog/new-phd-thesis-on-the-right-of-children-to-freedom-of-thought-in-romania/">New PhD thesis on the right of children to freedom of conscience in Romania</a></h4>
+									<p class="small mb-0">11 March 2021 | Romania</p>
+								</div>
+							</div>
+						</div>
+					</div>
+												</div>
+		</div>
+	</div>
+	
+    </section>
+        <section class="section section--fc hero bg-pink section-text-light" id="section-4">
+    	<!-- Container: Closed -->        <div class="container">
+        		<div class="hero__card not-visible text-light bg-pink">
+			<h2 class="hero__card-title">What We Do</h2>
+			<p>Our work focuses on those rights that are threatened, abused or undermined by harmful traditional, cultural and religious practices. We have a specific concentration on freedom of expression, freedom of religion or belief, the rights of women, LGBTI equality and the rights of the child.</p>
+							<a class="hero__card-btn" href="https://humanists.international/what-we-do/advocacy/" title="Read more">Read more</a>
+					</div>
+	<!-- Container: Open -->        </div> 
+        		<div class="hero__bg-image" style="background-image: url(https://humanists.international/wp-content/uploads/2019/02/Hero-images-WHAT-WE-DO-1800x600.jpg);"></div>
+	<div class="hero__curve hero__curve--pink not-visible">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1359.59 116.16" preserveAspectRatio="none"><defs><style>.svgcurve{fill:#d20d4b;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="SVGCURVE"><path id="Path_53" data-name="Path 53" class="svgcurve" d="M1359.59,48.35c-169.76,16.09-345.68,25-516.34,27.79-314.09,5.07-586.47-18-782.93-61.37C39.09,10.07,19.12,5.14.12,0L0,87.93q84.29,9.38,176.93,15.78C516.23,127,922,117.52,1297.28,76.11q31.35-3.47,62.3-7.2Z"/></g></g></svg>	</div>
+	<div class="hero__curve-base">
+		<svg preserveAspectRatio="none" id="f80f798d-c5bd-4fce-bb04-9290c8adb385" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 47.47"><path d="M1304.05,7.68C926.82,49.3,518.93,58.84,177.86,35.42Q84.73,29,0,19.56V48H1366V.52Q1335.22,4.24,1304.05,7.68Z" transform="translate(0 -0.52)" style="fill:#fff"/></svg>	</div>
+    </section>
+    <!-- Container: Closed -->	    <section class="section section--fc include_post_types bg-white section-text-dark" id="section-5">
+    		<!-- Container: Closed -->        <div class="container">
+        
+				<h3 class="post-types__title">Latest Reads</h3>
+		
+		<div class="posts-wrap">
+			<article class="post-card " data-post_id="51782">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/09/ban-on-gay-film-is-uncalled-for-says-the-atheists-in-kenya-society/" title="“Ban on gay film is uncalled for”, says the Atheists in Kenya Society">
+				<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/09/samuel-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Members and partners<span class="text-blue-light"> / </span>24 September 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/09/ban-on-gay-film-is-uncalled-for-says-the-atheists-in-kenya-society/" title="“Ban on gay film is uncalled for”, says the Atheists in Kenya Society">“Ban on gay film is uncalled for”, says the Atheists in Kenya Society</a></h3>
+
+			<div class="post-card__excerpt">
+				Atheists in Kenya Society deplores the ban on an LGBTI+ themed film and demands more diversity in mainstream film in&hellip;			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/09/ban-on-gay-film-is-uncalled-for-says-the-atheists-in-kenya-society/" title="“Ban on gay film is uncalled for”, says the Atheists in Kenya Society">Read More</a>
+		</div>
+	</div>
+</article><article class="post-card " data-post_id="51722">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/09/humanist-international-supports-greek-parents-plea-on-religious-education-exemption-in-schools/" title="Humanist International supports Greek parents&#8217; plea on religious education exemption in schools">
+				<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/09/school-705x460.jpeg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Members and partners<span class="text-blue-light"> / </span>24 September 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/09/humanist-international-supports-greek-parents-plea-on-religious-education-exemption-in-schools/" title="Humanist International supports Greek parents&#8217; plea on religious education exemption in schools">Humanist International supports Greek parents&#8217; plea on religious education exemption in schools</a></h3>
+
+			<div class="post-card__excerpt">
+				Humanist International supports Greek parents challenging unfair protocol for exemption from religious education in schools.			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/09/humanist-international-supports-greek-parents-plea-on-religious-education-exemption-in-schools/" title="Humanist International supports Greek parents&#8217; plea on religious education exemption in schools">Read More</a>
+		</div>
+	</div>
+</article><article class="post-card " data-post_id="51619">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/09/human-rights-council-session-will-test-commitment-of-states-to-avert-climate-disaster/" title="Human Rights Council session will test commitment of States to avert climate disaster">
+				<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/09/chris-leboutillier-TUJud0AWAPI-unsplash-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Advocacy News<span class="text-blue-light"> / </span>15 September 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/09/human-rights-council-session-will-test-commitment-of-states-to-avert-climate-disaster/" title="Human Rights Council session will test commitment of States to avert climate disaster">Human Rights Council session will test commitment of States to avert climate disaster</a></h3>
+
+			<div class="post-card__excerpt">
+				Humanists International joins civil society coalition calling on the UN to recognize the right to a healthy environment.			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/09/human-rights-council-session-will-test-commitment-of-states-to-avert-climate-disaster/" title="Human Rights Council session will test commitment of States to avert climate disaster">Read More</a>
+		</div>
+	</div>
+</article><article class="post-card " data-post_id="51614">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/09/nigeria-grant-mubarak-bala-access-to-all-necessary-medical-care/" title="Nigeria: Grant Mubarak Bala access to all necessary medical care">
+				<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/900-x-600-mubarak-1-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Action Alert - Live<span class="text-blue-light"> / </span>13 September 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/09/nigeria-grant-mubarak-bala-access-to-all-necessary-medical-care/" title="Nigeria: Grant Mubarak Bala access to all necessary medical care">Nigeria: Grant Mubarak Bala access to all necessary medical care</a></h3>
+
+			<div class="post-card__excerpt">
+				Concerns for the health of Mubarak Bala			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/09/nigeria-grant-mubarak-bala-access-to-all-necessary-medical-care/" title="Nigeria: Grant Mubarak Bala access to all necessary medical care">Read More</a>
+		</div>
+	</div>
+</article><article class="post-card " data-post_id="51457">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/08/american-atheists-donate-over-4000-to-the-protect-humanists-at-risk-campaign/" title="American Atheists donate over $4,000 to the Protect Humanists At Risk campaign">
+				<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/aa-donation-aa-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Humanists At Risk<span class="text-blue-light"> / </span>27 August 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/08/american-atheists-donate-over-4000-to-the-protect-humanists-at-risk-campaign/" title="American Atheists donate over $4,000 to the Protect Humanists At Risk campaign">American Atheists donate over $4,000 to the Protect Humanists At Risk campaign</a></h3>
+
+			<div class="post-card__excerpt">
+				"By investing in this program we are putting our values into action", said Nick Fish, President of the organization.			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/08/american-atheists-donate-over-4000-to-the-protect-humanists-at-risk-campaign/" title="American Atheists donate over $4,000 to the Protect Humanists At Risk campaign">Read More</a>
+		</div>
+	</div>
+</article><article class="post-card " data-post_id="51444">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/08/faith-to-faithless-hosts-first-national-conference-on-apostasy-in-the-u-k/" title="Faith to Faithless hosts first national conference on apostasy in the U.K.">
+				<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/Apostasy-Conference-News-Item-705x460.png" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Conferences<span class="text-blue-light"> / </span>27 August 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/08/faith-to-faithless-hosts-first-national-conference-on-apostasy-in-the-u-k/" title="Faith to Faithless hosts first national conference on apostasy in the U.K.">Faith to Faithless hosts first national conference on apostasy in the U.K.</a></h3>
+
+			<div class="post-card__excerpt">
+				Speakers gave powerful testimony of the abuse and systemic discrimination faced by apostates when accessing public services in the U.K..			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/08/faith-to-faithless-hosts-first-national-conference-on-apostasy-in-the-u-k/" title="Faith to Faithless hosts first national conference on apostasy in the U.K.">Read More</a>
+		</div>
+	</div>
+</article><article class="blog-card " data-post_id="51416">
+	<div class="post-card__content">
+
+
+									<a class="post-card__image" href="https://humanists.international/blog/today-the-un-human-rights-council-failed-the-afghan-people-and-betrayed-all-defenders-of-human-rights/" title="Today, the UN Human Rights Council failed the Afghan people and betrayed all defenders of human rights">
+					<div class="bg-image" style="background-image: url( https://humanists.international/wp-content/uploads/2021/08/Afganistan-HRC-705x460.jpg);"></div>
+				</a>
+					
+		<div class="post-card__body">	
+			<p class="post-card__meta">
+				<span class="icon bg-yellow"><i class="fas fa-fw fa-comment-lines"></i></span>
+				Advocacy blog<span class="text-yellow"> / </span>24 August 2021<span class="text-yellow"> / </span>Elizabeth O'Casey</p>
+			
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/blog/today-the-un-human-rights-council-failed-the-afghan-people-and-betrayed-all-defenders-of-human-rights/" title="Today, the UN Human Rights Council failed the Afghan people and betrayed all defenders of human rights">Today, the UN Human Rights Council failed the Afghan people and betrayed all defenders of human rights</a></h3>
+
+			<div class="post-card__excerpt">
+				In this blog, Humanists International’s Director of Advocacy, Elizabeth O’Casey, reflects on the outcomes of an emergency session held today&hellip;			</div>
+
+			<a class="post-card__link" href="https://humanists.international/blog/today-the-un-human-rights-council-failed-the-afghan-people-and-betrayed-all-defenders-of-human-rights/" title="Today, the UN Human Rights Council failed the Afghan people and betrayed all defenders of human rights">Read More</a>
+		</div>
+	</div>
+</article><article class="advocacy-statement-card" data-post_id="51364">
+	<div class="post-card__content">
+
+		
+		<div class="post-card__body">	
+			<p class="post-card__meta">
+				<span class="icon bg-blue"><i class="fas fa-fw fa-wheat"></i></span>
+				Advocacy Statement<span class="text-blue"> / </span>2021<span class="text-blue"> / </span>Afghanistan<span class="text-blue"> / </span>UN Human Rights Council<span class="text-blue"> / </span></p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/advocacy-statement/un-must-investigate-human-rights-violations-in-afghanistan/" title="UN must investigate human rights violations in Afghanistan">UN must investigate human rights violations in Afghanistan</a></h3>
+
+			<div class="post-card__excerpt">
+				International Humanist and Ethical Union UN Human Rights Council, 31st special session of the Human Rights Council on the serious&hellip;			</div>
+
+			<a class="post-card__link" href="https://humanists.international/advocacy-statement/un-must-investigate-human-rights-violations-in-afghanistan/" title="UN must investigate human rights violations in Afghanistan">Read More</a>
+		</div>
+	</div>
+</article><article class="post-card " data-post_id="51361">
+	<div class="post-card__content">
+
+		<div class="post-card__image">
+			<a href="https://humanists.international/2021/08/humanists-international-calls-on-un-to-urgently-investigate-human-rights-violations-in-afghanistan/" title="Humanists International calls on UN to urgently investigate human rights violations in Afghanistan">
+				<img width="705" height="460" src="https://humanists.international/wp-content/uploads/2021/08/afhan-photo-705x460.jpg" class="attachment-theme-medium size-theme-medium wp-post-image" alt="" loading="lazy" />
+							</a>
+		</div>
+
+		<div class="post-card__body">
+			<p class="post-card__meta">
+				<span class="icon bg-blue-light text-white"><i class="fas fa-fw fa-newspaper"></i></span>
+				Advocacy News<span class="text-blue-light"> / </span>24 August 2021</p>
+
+			<h3 class="post-card__title"><a class="text-dark" href="https://humanists.international/2021/08/humanists-international-calls-on-un-to-urgently-investigate-human-rights-violations-in-afghanistan/" title="Humanists International calls on UN to urgently investigate human rights violations in Afghanistan">Humanists International calls on UN to urgently investigate human rights violations in Afghanistan</a></h3>
+
+			<div class="post-card__excerpt">
+				Today at the UN, Humanists International has urged the international community to establish an adequately resourced fact-finding mission to investigate&hellip;			</div>
+
+			<a class="post-card__link" href="https://humanists.international/2021/08/humanists-international-calls-on-un-to-urgently-investigate-human-rights-violations-in-afghanistan/" title="Humanists International calls on UN to urgently investigate human rights violations in Afghanistan">Read More</a>
+		</div>
+	</div>
+</article>		</div>
+
+		<!-- Container: Open -->        </div> 
+        	    </section>
+    <!-- Container: Closed -->        <div class="container">
+        
+<div class="container">
+	<div class="row">
+		<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+					</div>
+	</div>
+</div><!-- Container: Open -->        </div> 
+        	
+
+			
+
+	<div class="pullout-wrap">
+	<div class="pullout pullout--share">
+		<h6 class="pullout__title"><span>Share</span></h6>
+		<div data-network="facebook" class="st-custom-button"><i class="fab fa-fw fa-facebook"></i></div> 
+		<div data-network="twitter" class="st-custom-button"><i class="fab fa-fw fa-twitter"></i></div>
+		<div data-network="linkedin" class="st-custom-button"><i class="fab fa-fw fa-linkedin"></i></div> 
+		<div data-network="whatsapp" class="st-custom-button st-hide-label"><i class="fab fa-fw fa-whatsapp"></i></div> 
+		<div data-network="email" class="st-custom-button st-hide-label"><i class="far fa-fw fa-envelope"></i></div>
+		<!-- <div class="pullout__body"> -->
+		<!-- </div> -->
+	</div>
+</div>
+	<div class="w-100 p-5"></div>
+	<footer class="d-flex site-footer bg-blue-light">
+		<div class="container">
+	    	<div class="footer-pullup bg-pink">
+	    		<div class="footer-pullup__share">
+	    			<h6 class="share__title">This is important</h6>
+	    			<p class="share__description">Please share this page with your networks</p>
+	    			<div class="share__buttons">
+	    				<div data-network="facebook" class="st-custom-button"><i class="fab fa-facebook"></i></div> 
+<div data-network="twitter" class="st-custom-button"><i class="fab fa-twitter"></i></div>
+<div data-network="linkedin" class="st-custom-button"><i class="fab fa-linkedin"></i></div> 
+<div data-network="whatsapp" class="st-custom-button"><i class="fab fa-whatsapp"></i></div> 
+<div data-network="email" class="st-custom-button"><i class="far fa-envelope"></i></div>	    			</div>
+	    		</div>
+
+	    		<div class="footer-pullup__break"></div>
+	    		
+	    		<div class="footer-pullup__form">
+	    			<div class="footer__newsletter-form">
+	    				<p class="mb-1">MAILING LIST</p>
+						<form action="https://humanists.international/sign-up-for-the-newsletter/">
+							<div class="row no-gutters mb-2">
+								<div class="col pr-1">
+									<label for="first_name" class="sr-only">First Name</label>
+									<input name="first_name" type="text" class="form-control form-control-sm" placeholder="First name">
+								</div>
+								<div class="col pl-1">
+									<label for="last_name" class="sr-only">Last Name</label>
+									<input name="last_name" type="text" class="form-control form-control-sm" placeholder="Last name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="sr-only" for="email-Primary">Email address</label>
+								<input name="email-Primary" type="email" class="form-control form-control-sm" id="newsletter_email" aria-describedby="emailHelp" placeholder="Enter email">
+								<small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small>
+							</div>
+							<input type="hidden" name="wiawPopNews" value=1>
+							<button type="submit" class="btn btn-default btn-sm" id="footer-newsletter-submit">Submit</button>
+						</form>
+	    			</div>
+	    		</div>
+	    	</div>
+
+	    	<div class="footer-main">
+	    		    <ul class="social-icons">
+            <li class="social-icons__icon"><a href="https://facebook.com/humanistsinternational" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-icons__icon"><a href="https://twitter.com/humanistsint" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-icons__icon"><a href="https://humanists.international/feed/" title="RSS feed" target="_blank"><i class="fas fa-rss-square"></i></a></li>
+        </ul>
+    	    		<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-25616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25616 page-id-25561"><a href="https://humanists.international/privacy/">Privacy &#038; Cookies</a></li>
+<li id="menu-item-25614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25614 page-id-25563"><a href="https://humanists.international/about/contact-us/">Contact us</a></li>
+<li id="menu-item-25752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25752 page-id-25730"><a href="https://humanists.international/sign-up-for-the-newsletter/">Sign up for the Newsletter</a></li>
+</ul></div>				<p class="footer-main__legal">
+					Humanists International, Inc. is a US not-for-profit 501-c(3) registered in New York (Registered address: 1821 Jefferson Pl NW, Washington, DC 20036). Humanists International is also the trading name of Humanists International 2020, a Scottish (UK) charity no. SC050629. Registered address: 272 Bath Street, Glasgow, G4 2JR, UK. Principal Office: 17 Oval Way, London, SE11 5RR, UK.				</p>
+	    	</div>
+
+	    		    	<div class="footer-logos">
+	    			    		<div class="logo">
+	    			<img width="300" height="300" src="https://humanists.international/wp-content/uploads/2021/01/small-mono-300x300.png" class="attachment-medium size-medium" alt="" loading="lazy" title="Scottish Charity Regulator" srcset="https://humanists.international/wp-content/uploads/2021/01/small-mono.png 300w, https://humanists.international/wp-content/uploads/2021/01/small-mono-150x150.png 150w, https://humanists.international/wp-content/uploads/2021/01/small-mono-180x180.png 180w, https://humanists.international/wp-content/uploads/2021/01/small-mono-250x250.png 250w" sizes="(max-width: 300px) 100vw, 300px" />	    				    				<a href="https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=50629" target="_blank"><span class="sr-only">Scottish Charity Regulator</span></a>
+	    				    		</div>
+	    			    		<div class="logo">
+	    			<img width="300" height="300" src="https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold-300x300.png" class="attachment-medium size-medium" alt="" loading="lazy" title="Guidestar US" srcset="https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold-300x300.png 300w, https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold-150x150.png 150w, https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold-768x768.png 768w, https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold-180x180.png 180w, https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold-250x250.png 250w, https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold-360x360.png 360w, https://humanists.international/wp-content/uploads/2021/01/PrintCMYK_3in_Gold.png 900w" sizes="(max-width: 300px) 100vw, 300px" />	    				    				<a href="http://guidestar.org/Profile/7789885" target="_blank"><span class="sr-only">Guidestar US</span></a>
+	    				    		</div>
+	    			    	</div>
+	    		    	
+	    	<div class="site-footer__logo">
+	    		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.22 119.08">
+	<title>Humanists Logo</title>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="Our_People" data-name="Our People">
+			<g id="Group_1-2" data-name="Group 1-2">
+				<path id="Path_1-2" data-name="Path 1-2" class="svg-logo svg-logo--letter" d="M101.79,83.17a2.38,2.38,0,0,0,1.72-.66,2.3,2.3,0,0,0,.72-1.74,2.34,2.34,0,0,0-.72-1.76,2.54,2.54,0,0,0-3.46,0,2.36,2.36,0,0,0-.7,1.76,2.29,2.29,0,0,0,.7,1.74A2.43,2.43,0,0,0,101.79,83.17Z"/>
+				<path id="Path_2-2" data-name="Path 2-2" class="svg-logo svg-logo--letter" d="M16.56,79.86a2.53,2.53,0,0,0-.95-.38,5,5,0,0,0-.95-.11l-.74,0-.93.12v9H4.57V82a2.62,2.62,0,0,0-.28-1.34,2.24,2.24,0,0,0-.72-.78,2.73,2.73,0,0,0-.95-.39,5.87,5.87,0,0,0-1-.1l-.68,0L0,79.54v22.34H4.57V92.2H13v9.68h4.57V82a2.62,2.62,0,0,0-.28-1.34A2.24,2.24,0,0,0,16.56,79.86Z"/>
+				<path id="Path_3-2" data-name="Path 3-2" class="svg-logo svg-logo--letter" d="M35.16,101.88V88.76a3.16,3.16,0,0,0-.26-1.39,2.26,2.26,0,0,0-.7-.86,2.79,2.79,0,0,0-1-.44A5.48,5.48,0,0,0,32.15,86c-.33,0-.67,0-1,0a2.35,2.35,0,0,0-.53.09V96.74A1.48,1.48,0,0,1,29.73,98a4.14,4.14,0,0,1-2.12.52,3,3,0,0,1-1.35-.25,1.53,1.53,0,0,1-.7-.7,2.86,2.86,0,0,1-.27-1.07c0-.41-.05-.87-.05-1.39V88.59A2.84,2.84,0,0,0,25,87.24a2.11,2.11,0,0,0-.7-.81,2.56,2.56,0,0,0-1-.38,5.46,5.46,0,0,0-1.07-.1c-.33,0-.67,0-1,0a3.08,3.08,0,0,0-.53.08v9.25c0,.58,0,1.17.05,1.77A10.3,10.3,0,0,0,21,98.77a4.3,4.3,0,0,0,1.47,2.48,5.47,5.47,0,0,0,3.51.93,6.57,6.57,0,0,0,3.17-.65,5.35,5.35,0,0,0,1.75-1.42,3.13,3.13,0,0,0,.21,1.32q.22.45,1,.45Z"/>
+				<path id="Path_4-2" data-name="Path 4-2" class="svg-logo svg-logo--letter" d="M62,101.88V92.47c0-.58,0-1.17-.05-1.78A13.39,13.39,0,0,0,61.79,89a3.88,3.88,0,0,0-1.32-2.41,5.12,5.12,0,0,0-3.49-1,6.42,6.42,0,0,0-3.13.68,6.51,6.51,0,0,0-1.94,1.56,4.18,4.18,0,0,0-1.35-1.57,4.73,4.73,0,0,0-2.79-.67,6.53,6.53,0,0,0-3.17.65,5.21,5.21,0,0,0-1.74,1.42,1.83,1.83,0,0,0-1-1.35A4.29,4.29,0,0,0,40,86l-.64,0-.46,0-.4.07v15.79h4.57V91.06a1.51,1.51,0,0,1,.76-1.28,3.26,3.26,0,0,1,1.92-.52,2.9,2.9,0,0,1,1.33.25,1.63,1.63,0,0,1,.7.7,2.57,2.57,0,0,1,.27,1.08c0,.43,0,.88,0,1.37v9.22h4.55V92.63c0-.66,0-1.32-.1-2a2.69,2.69,0,0,1,1.08-.87,3.65,3.65,0,0,1,1.65-.4,2.69,2.69,0,0,1,1.25.24,1.48,1.48,0,0,1,.67.66,2.52,2.52,0,0,1,.25,1c0,.4,0,.85,0,1.34v9.21Z"/>
+				<path id="Path_5-2" data-name="Path 5-2" class="svg-logo svg-logo--letter" d="M74.13,97.54a1,1,0,0,1-.25.59,2.52,2.52,0,0,1-.68.58,4.1,4.1,0,0,1-1,.43,4.4,4.4,0,0,1-1.2.17,2.2,2.2,0,0,1-1.8-.65,2.47,2.47,0,0,1-.54-1.59,2.25,2.25,0,0,1,.4-1.37,3,3,0,0,1,1-.85,5.33,5.33,0,0,1,1.45-.46,15.39,15.39,0,0,1,1.66-.22,3.55,3.55,0,0,1,.46,0h.47Zm5,4.31A7.52,7.52,0,0,1,78.4,98V91.74a9.36,9.36,0,0,0-.33-2.69A4.25,4.25,0,0,0,77,87.13a4.82,4.82,0,0,0-2-1.14,11.3,11.3,0,0,0-3.06-.37,13.59,13.59,0,0,0-2.47.22,10.58,10.58,0,0,0-2.07.57,4.53,4.53,0,0,0-1.42.8,1.25,1.25,0,0,0-.52.88,3,3,0,0,0,.28,1,5,5,0,0,0,.76,1.25,22.08,22.08,0,0,1,2.19-1.06,6.38,6.38,0,0,1,2.55-.47,3.6,3.6,0,0,1,2.22.53,2.16,2.16,0,0,1,.69,1.81v.6h-.72l-.79,0a23.26,23.26,0,0,0-2.63.3,9.41,9.41,0,0,0-2.68.85,6,6,0,0,0-2,1.69,4.49,4.49,0,0,0-.82,2.77,5.3,5.3,0,0,0,.47,2.32,4.34,4.34,0,0,0,1.2,1.52,4.75,4.75,0,0,0,1.64.81,6.46,6.46,0,0,0,1.8.25,7.2,7.2,0,0,0,2.94-.53,6,6,0,0,0,1.94-1.3,2.11,2.11,0,0,0,.78,1.34,2.93,2.93,0,0,0,1.82.46,4.88,4.88,0,0,0,1.08-.1,5.53,5.53,0,0,0,1.12-.33Z"/>
+				<path id="Path_6-2" data-name="Path 6-2" class="svg-logo svg-logo--letter" d="M91.67,91.3c0,.42,0,.88,0,1.37v9.21h4.54V92.47c0-.58,0-1.17,0-1.78A11.59,11.59,0,0,0,96,89a4.3,4.3,0,0,0-1.47-2.48A5.47,5.47,0,0,0,91,85.62a6.53,6.53,0,0,0-3.17.65,5.21,5.21,0,0,0-1.74,1.42,1.81,1.81,0,0,0-1-1.35A4.24,4.24,0,0,0,83.27,86l-.64,0-.47,0-.4.07v15.79h4.58V91.06a1.49,1.49,0,0,1,.88-1.28,4.14,4.14,0,0,1,2.12-.52,3,3,0,0,1,1.36.25,1.58,1.58,0,0,1,.7.7A3.36,3.36,0,0,1,91.67,91.3Z"/>
+				<path id="Path_7-2" data-name="Path 7-2" class="svg-logo svg-logo--letter" d="M103.47,102.18a1.72,1.72,0,0,0,.6-.1V88.59a3,3,0,0,0-.26-1.35,2.16,2.16,0,0,0-.7-.8,2.88,2.88,0,0,0-1-.39,6.36,6.36,0,0,0-1.07-.1c-.33,0-.67,0-1,0a2.35,2.35,0,0,0-.53.09V99.44a2.48,2.48,0,0,0,.82,2.22,3.59,3.59,0,0,0,2.12.55C102.83,102.22,103.16,102.2,103.47,102.18Z"/>
+				<path id="Path_8-2" data-name="Path 8-2" class="svg-logo svg-logo--letter" d="M114.91,102A6.62,6.62,0,0,0,117,101a5.09,5.09,0,0,0,1.42-1.74,5.26,5.26,0,0,0,.52-2.37,4.43,4.43,0,0,0-.49-2.17,4.28,4.28,0,0,0-1.27-1.44,6.37,6.37,0,0,0-1.77-.88,17,17,0,0,0-2-.52c-1.63-.36-2.44-.91-2.44-1.67a1.18,1.18,0,0,1,.22-.75,1.3,1.3,0,0,1,.53-.43,2,2,0,0,1,.72-.2,4.9,4.9,0,0,1,.77,0,5.12,5.12,0,0,1,1.29.16,9,9,0,0,1,1.27.42,9.54,9.54,0,0,1,1.11.55,8,8,0,0,1,.8.54,13.24,13.24,0,0,0,.68-1.29,2.89,2.89,0,0,0,.32-1.19c0-.64-.56-1.17-1.54-1.57a8.66,8.66,0,0,0-1.82-.53,12.68,12.68,0,0,0-2.38-.2,9.07,9.07,0,0,0-2.44.31,6.57,6.57,0,0,0-2.06,1,5.06,5.06,0,0,0-1.42,1.53,4.09,4.09,0,0,0-.53,2.11,4.43,4.43,0,0,0,.42,2A3.87,3.87,0,0,0,108.08,94a5.67,5.67,0,0,0,1.6.88,12.12,12.12,0,0,0,1.87.54,8.1,8.1,0,0,1,2.25.72,1.43,1.43,0,0,1,.75,1.38,1.48,1.48,0,0,1-.23.87,1.67,1.67,0,0,1-.59.53,2.35,2.35,0,0,1-.81.27c-.3,0-.6.06-.9.07a5.71,5.71,0,0,1-1.37-.17,9.31,9.31,0,0,1-1.26-.42,8.35,8.35,0,0,1-1-.53,6,6,0,0,1-.75-.55c-.29.44-.55.87-.77,1.28a2.47,2.47,0,0,0-.33,1.19,1.18,1.18,0,0,0,.55,1,5.76,5.76,0,0,0,1,.59,7.88,7.88,0,0,0,1.67.51,11.63,11.63,0,0,0,2.5.22A9.18,9.18,0,0,0,114.91,102Z"/>
+				<path id="Path_9-2" data-name="Path 9-2" class="svg-logo svg-logo--letter" d="M130.34,97.71c-.07.07-.18.17-.34.3a2.76,2.76,0,0,1-.58.38,7.51,7.51,0,0,1-.77.34,2.62,2.62,0,0,1-.88.15c-1.27,0-1.91-.78-1.91-2.34V89.39h4.68V86h-4.68V83.65a3,3,0,0,0-.26-1.35,2.25,2.25,0,0,0-.71-.82,2.44,2.44,0,0,0-1-.4,5.46,5.46,0,0,0-1.07-.1,4.7,4.7,0,0,0-.53,0,3.68,3.68,0,0,0-.5,0l-.5.06v15.5c0,.49,0,1,.06,1.46a6.11,6.11,0,0,0,.3,1.41,4.24,4.24,0,0,0,1.61,2.1,5.51,5.51,0,0,0,3.24.81,8.6,8.6,0,0,0,2-.22,5.94,5.94,0,0,0,1.54-.57,3.35,3.35,0,0,0,1-.77,1.33,1.33,0,0,0,.35-.85,2.2,2.2,0,0,0-.27-1A12.53,12.53,0,0,0,130.34,97.71Z"/>
+				<path id="Path_10-2" data-name="Path 10-2" class="svg-logo svg-logo--letter" d="M144.73,94.67a4.28,4.28,0,0,0-1.27-1.44,6.37,6.37,0,0,0-1.77-.88,17,17,0,0,0-2-.52c-1.63-.36-2.44-.91-2.44-1.67a1.18,1.18,0,0,1,.22-.75A1.3,1.3,0,0,1,138,89a2,2,0,0,1,.72-.2,4.9,4.9,0,0,1,.77,0,5.12,5.12,0,0,1,1.29.16,9,9,0,0,1,1.27.42,9.54,9.54,0,0,1,1.11.55,8,8,0,0,1,.8.54,13.24,13.24,0,0,0,.68-1.29,2.89,2.89,0,0,0,.32-1.19c0-.64-.56-1.17-1.54-1.57a8.66,8.66,0,0,0-1.82-.53,12.61,12.61,0,0,0-2.38-.2,9.07,9.07,0,0,0-2.44.31,6.57,6.57,0,0,0-2.06,1,5.19,5.19,0,0,0-1.42,1.53,4.09,4.09,0,0,0-.53,2.11,4.43,4.43,0,0,0,.42,2A3.87,3.87,0,0,0,134.33,94a5.67,5.67,0,0,0,1.6.88,12.12,12.12,0,0,0,1.87.54,8.1,8.1,0,0,1,2.25.72,1.43,1.43,0,0,1,.75,1.38,1.41,1.41,0,0,1-.23.87,1.73,1.73,0,0,1-.58.53,2.4,2.4,0,0,1-.82.27c-.3,0-.6.06-.9.07A5.78,5.78,0,0,1,136.9,99a8.74,8.74,0,0,1-1.25-.42,7.82,7.82,0,0,1-1-.53,5.78,5.78,0,0,1-.75-.55c-.29.44-.54.87-.77,1.28a2.47,2.47,0,0,0-.33,1.19,1.23,1.23,0,0,0,.55,1,5.76,5.76,0,0,0,1,.59,8.06,8.06,0,0,0,1.67.51,11.63,11.63,0,0,0,2.5.22,8.86,8.86,0,0,0,2.66-.37,6.42,6.42,0,0,0,2.12-1.07,5,5,0,0,0,1.42-1.73,5.25,5.25,0,0,0,.51-2.37A4.31,4.31,0,0,0,144.73,94.67Z"/>
+				<path id="Path_11-2" data-name="Path 11-2" class="svg-logo svg-logo--letter" d="M17.56,119H19v-7.59H17.56Z"/>
+				<path id="Path_12-2" data-name="Path 12-2" class="svg-logo svg-logo--letter" d="M27.86,116.52l-4.18-5.14H22.52V119h1.4v-5.14L28.1,119h1.17v-7.59H27.86Z"/>
+				<path id="Path_13-2" data-name="Path 13-2" class="svg-logo svg-logo--letter" d="M31.85,112.57h2.51V119h1.41v-6.4h2.52v-1.19H31.85Z"/>
+				<path id="Path_14-2" data-name="Path 14-2" class="svg-logo svg-logo--letter" d="M42.28,115.69H46v-1.16H42.28v-2h4.13v-1.18H40.87V119h5.7v-1.18H42.28Z"/>
+				<path id="Path_15-2" data-name="Path 15-2" class="svg-logo svg-logo--letter" d="M52.72,115.6H51.07v-3h1.65c1.23,0,1.87.55,1.87,1.5S54,115.6,52.72,115.6ZM56,114.08c0-1.68-1.23-2.7-3.23-2.7H49.66V119h1.4v-2.21h2L54.62,119h1.51l-1.74-2.5A2.41,2.41,0,0,0,56,114.08Z"/>
+				<path id="Path_16-2" data-name="Path 16-2" class="svg-logo svg-logo--letter" d="M64.45,116.52l-4.18-5.14H59.11V119H60.5v-5.14L64.69,119h1.16v-7.59h-1.4Z"/>
+				<path id="Path_17-2" data-name="Path 17-2" class="svg-logo svg-logo--letter" d="M71,116.1l1.42-3.31,1.44,3.31Zm.74-4.72L68.34,119h1.45l.75-1.76h3.79l.76,1.76h1.47l-3.42-7.59Z"/>
+				<path id="Path_18-2" data-name="Path 18-2" class="svg-logo svg-logo--letter" d="M77.7,112.57h2.51V119h1.41v-6.4h2.52v-1.19H77.69Z"/>
+				<path id="Path_19-2" data-name="Path 19-2" class="svg-logo svg-logo--letter" d="M86.72,119h1.41v-7.59H86.72Z"/>
+				<path id="Path_20-2" data-name="Path 20-2" class="svg-logo svg-logo--letter" d="M95.24,117.84a2.58,2.58,0,0,1-2.66-2.5v-.17a2.58,2.58,0,0,1,2.5-2.67h.16A2.59,2.59,0,0,1,97.91,115v.16a2.58,2.58,0,0,1-2.5,2.67Zm0-6.57A3.88,3.88,0,0,0,91.16,115v.22A3.88,3.88,0,0,0,95,119.08h.22a3.89,3.89,0,0,0,4.09-3.67v-.24a3.88,3.88,0,0,0-3.85-3.91Z"/>
+				<path id="Path_21-2" data-name="Path 21-2" class="svg-logo svg-logo--letter" d="M107.7,116.52l-4.19-5.14h-1.16V119h1.4v-5.14l4.18,5.14h1.17v-7.59h-1.4Z"/>
+				<path id="Path_22-2" data-name="Path 22-2" class="svg-logo svg-logo--letter" d="M114.26,116.1l1.42-3.31,1.43,3.31Zm.74-4.72L111.58,119H113l.75-1.76h3.79l.76,1.76h1.47l-3.42-7.59Z"/>
+				<path id="Path_23-2" data-name="Path 23-2" class="svg-logo svg-logo--letter" d="M123.71,111.38H122.3V119h5.38v-1.19h-4Z"/>
+				
+				<path id="icon-1" data-name="icon-1" class="svg-logo svg-logo--icon" d="M55.72,60.78a25.44,25.44,0,0,0,7,5.69A23.69,23.69,0,0,0,83,67.79a11.13,11.13,0,0,0,2.1-1,.51.51,0,0,0,.17-.69.5.5,0,0,0-.57-.23c-.7.16-1.26.42-2.13.64a22.81,22.81,0,0,1-9.16.36,20.16,20.16,0,0,1-12.61-7.47A35.45,35.45,0,0,1,57.37,54c-.54-1-.86-2-1.59-1.9A4.18,4.18,0,0,0,53.12,54a2.72,2.72,0,0,0-.44,1.5,5,5,0,0,0,1,2.54A23.5,23.5,0,0,0,55.72,60.78Z"/>
+				<path id="icon-2" data-name="icon-2" class="svg-logo svg-logo--icon" d="M60.53,3.55c.7-.16,1.26-.42,2.12-.64a22.86,22.86,0,0,1,9.17-.36A20.15,20.15,0,0,1,84.43,10a36,36,0,0,1,3.42,5.47c.54,1,.86,1.94,1.59,1.9a4.25,4.25,0,0,0,2.66-1.89,2.76,2.76,0,0,0,.44-1.5,5,5,0,0,0-1-2.54A21.06,21.06,0,0,0,89.5,8.66a25.26,25.26,0,0,0-7-5.69,24,24,0,0,0-18-2.1,22.8,22.8,0,0,0-2.29.77,11.6,11.6,0,0,0-2.11,1,.5.5,0,0,0-.2.68A.51.51,0,0,0,60.53,3.55Z"/>
+				<path id="icon-3" data-name="icon-3" class="svg-logo svg-logo--icon" d="M72.61,27.15c2.12,0,3.84-2,3.84-4.58S74.73,18,72.61,18s-3.84,2-3.84,4.57S70.49,27.15,72.61,27.15Z"/>
+				<path id="icon-4" data-name="icon-4" class="svg-logo svg-logo--icon" d="M82.86,33.33A116,116,0,0,0,81.8,20.84c-.28-2-.6-4-1-6-.18-.87-.46-3-1.29-3.28a1,1,0,0,0-1.25.61,2,2,0,0,0,0,.24,12.5,12.5,0,0,0,0,2v0c0,.06,0,.13,0,.19s0,.38,0,.57c0-.11,0-.21,0-.29,0,.44.07.89.09,1.34,0,.91.06,1.82,0,2.73s-.07,1.8-.13,2.69c0,.45-.06.89-.12,1.33,0,.18,0,.37-.08.56l-.06.37L78,24c-.47,2.14-1.53,4.38-3.67,5.28a4.68,4.68,0,0,1-5.43-1.84c-1.54-2.08-1.69-4.86-1.73-7.35,0-3.09.34-6.16.59-9.23,0-.72.09-1.44.14-2.16a5.88,5.88,0,0,0,0-.73c0-.11,0-.23,0-.34A1,1,0,0,0,67,6.68a.64.64,0,0,0-.41,0c-.72.21-1.09,1.9-1.31,2.85a82.47,82.47,0,0,0-1.72,8.12A104.09,104.09,0,0,0,62.35,36a99.73,99.73,0,0,0,2.09,18.47c0,.22.09.44.13.66.19,1,.5,2.34,1.14,2.53a1,1,0,0,0,1.23-.62.78.78,0,0,0,0-.22,5.82,5.82,0,0,0,.07-.93c0-.25,0-.49,0-.66a43.13,43.13,0,0,1,.7-8.64c.46-2.13,1.22-4.66,3-6.06s3.88-.59,5.1,1.07a13.16,13.16,0,0,1,2,6.56,48.45,48.45,0,0,1-.31,9c-.1,1.06-.25,2.14-.31,3.21a11.34,11.34,0,0,0,0,1.43,1,1,0,0,0,1,.94h0l.19,0c.82-.19,1.22-2.33,1.44-3.17a2,2,0,0,0,.06-.23h0c.27-1.09.51-2.18.76-3.28A95.49,95.49,0,0,0,82.84,38C82.87,36.44,82.91,34.88,82.86,33.33Z"/>
+			</g>
+		</g>
+	</g>
+</svg>	    	</div>
+	  	</div>
+	</footer>
+
+	
+
+
+
+
+
+	<a class="sr-only" href="https://whoisandywhite.com" title="WordPress theme developer - whois: Andy White London">WordPress theme developer - whois: Andy White London</a>
+
+    <!-- Facebook Pixel Event Code -->
+    <script type='text/javascript'>
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+        if( "fb_pxl_code" in event.detail.apiResponse){
+          eval(event.detail.apiResponse.fb_pxl_code);
+        }
+      }, false );
+    </script>
+    <!-- End Facebook Pixel Event Code -->
+    <div id='fb-pxl-ajax-code'></div><script type='text/javascript' src='//js.stripe.com/v3?ver=1.4.10' id='stripe-v3-js'></script>
+<script type='text/javascript' id='cf-stripe-js-extra'>
+/* <![CDATA[ */
+var cf_stripe = {"ajaxurl":"https:\/\/humanists.international\/wp-admin\/admin-ajax.php","nonce":"52e8849189","errorText":"Error processing payment"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://humanists.international/wp-content/plugins/cf-stripe/assets/cf-stripe.js?ver=1.4.10' id='cf-stripe-js'></script>
+<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?v=3.exp&#038;key=AIzaSyDdJShpoiIV3Ty1YPsAec23vE6k1PSrzgQ&#038;ver=5.8' id='googlemaps-js-js'></script>
+<script type='text/javascript' src='https://humanists.international/wp-content/themes/humanists/dist/js/bootstrap.min.js?ver=5.8' id='bootstrap_js-js'></script>
+<script type='text/javascript' src='https://humanists.international/wp-content/themes/humanists/dist/js/plugins.min.js?ver=5.8' id='plugins_js-js'></script>
+<script type='text/javascript' id='theme_js-js-extra'>
+/* <![CDATA[ */
+var wiaw_js_vars = {"collapse_width":"1023","themeurl":"https:\/\/humanists.international\/wp-content\/themes\/humanists","ajaxurl":"https:\/\/humanists.international\/wp-admin\/admin-ajax.php","blogurl":"https:\/\/humanists.international","cookie_bar":{"message":"This website uses cookies to ensure you get the best experience.","accept_text":"Got it","policy_button":true,"policy_text":"Learn More","policy_url":"https:\/\/humanists.international\/privacy\/"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://humanists.international/wp-content/themes/humanists/dist/js/humanists.min.js?ver=5.8' id='theme_js-js'></script>
+<script type='text/javascript' src='https://humanists.international/wp-includes/js/wp-embed.min.js?ver=5.8' id='wp-embed-js'></script>
+</body>
+</html>
